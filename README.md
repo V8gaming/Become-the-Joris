@@ -1,6 +1,6 @@
 # Become-the-Joris
 
-![Mod Preview](/about/Preview.png)
+![Mod Preview](/About/Preview.png)
 
 
 Become The Joris
