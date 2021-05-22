@@ -17,7 +17,7 @@
                             <kindDefs>
                                 <li>SW_PerfectlyNormalJoris</li>
                             </kindDefs>
-                            <chance>10.0</chance>
+                            <chance>5.0</chance>
                         </li>
                         <li>
                             <kindDefs>
@@ -35,9 +35,19 @@
                     <pawnKindEntries>
                         <li>
                             <kindDefs>
-                                <li>SW_AnimeMascotJorisTribal</li>
-                                <li>SW_PerfectlyNormalJorisPlayerTribal</li>
-                                <li>SW_BeefeaterJorisPlayerTribal</li>
+                                <li>SW_AnimeMascotJoris</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_PerfectlyNormalJoris</li>
+                            </kindDefs>
+                            <chance>5.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_BeefeaterJoris</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
@@ -53,7 +63,17 @@
                         <li>
                             <kindDefs>
                                 <li>SW_AnimeMascotJoris</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
                                 <li>SW_PerfectlyNormalJoris</li>
+                            </kindDefs>
+                            <chance>5.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
                                 <li>SW_BeefeaterJoris</li>
                             </kindDefs>
                             <chance>10.0</chance>
@@ -71,7 +91,7 @@
                                 <li>SW_PerfectlyNormalJorisPlayerTribal</li>
                                 <li>SW_BeefeaterJorisPlayerTribal</li>
                             </kindDefs>
-                            <chance>10.0</chance>
+                            <chance>5.0</chance>
                         </li>
                     </pawnKindEntries>
                     <factionDefs>
