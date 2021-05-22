@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<PawnKindDef Name="BasePerfectlyNormalJorisPawnKind">
-		<defName>SW_PerfectlyNormalJoris</defName>
+	<PawnKindDef Name="BasePerfectlyNormalJorisPlayerPawnKind">
+		<defName>SW_PerfectlyNormalJorisPlayer</defName>
 		<label>Perfectly normal joris</label>
 		<race>SW_Alien_PerfectlyNormalJoris</race>
 		<combatPower>50</combatPower>
@@ -31,7 +31,7 @@
 		</techHediffsTags>
 	</PawnKindDef>
 
-	<PawnKindDef Name="BaseTribalPerfectlyNormalJorisPawnKind">
+	<PawnKindDef Name="BaseTribalPerfectlyNormalJorisPlayerPawnKind">
 		<defName>SW_PerfectlyNormalJorisPlayerTribal</defName>
 		<label>Tribal Perfectly normal joris</label>
 		<race>SW_Alien_PerfectlyNormalJoris</race>

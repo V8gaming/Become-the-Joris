@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<PawnKindDef Name="Base<!--Here-->PawnKind">
-		<defName>SW_<!--Here-->Player</defName>
-		<label><!--Here--></label>
-		<race>SW_Alien_<!--Here--></race>
+	<PawnKindDef Name="BaseRoundJorisPlayerPawnKind">
+		<defName>SW_RoundJorisPlayer</defName>
+		<label>Round Jorisfolk</label>
+		<race>SW_Alien_RoundJoris</race>
 		<combatPower>50</combatPower>
 		<baseRecruitDifficulty>0.50</baseRecruitDifficulty>
 		<isFighter>false</isFighter>
@@ -31,10 +31,10 @@
 		</techHediffsTags>
 	</PawnKindDef>
 
-	<PawnKindDef Name="BaseTribal<!--Here-->PawnKind">
-		<defName>SW_<!--Here-->PlayerTribal</defName>
-		<label>Tribal <!--Here--></label>
-		<race>SW_Alien_<!--Here--></race>
+	<PawnKindDef Name="BaseTribalRoundJorisPlayerPawnKind">
+		<defName>SW_RoundJorisPlayerTribal</defName>
+		<label>Tribal Round Jorisfolk</label>
+		<race>SW_Alien_RoundJoris</race>
 		<combatPower>50</combatPower>
 		<baseRecruitDifficulty>0.50</baseRecruitDifficulty>
 		<isFighter>false</isFighter>

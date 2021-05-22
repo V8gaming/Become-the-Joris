@@ -10,4 +10,7 @@
     <BodyTypeDef>
         <defName>BFJ</defName>
     </BodyTypeDef>
+    <BodyTypeDef>
+        <defName>RJ</defName>
+    </BodyTypeDef>
 </Defs>

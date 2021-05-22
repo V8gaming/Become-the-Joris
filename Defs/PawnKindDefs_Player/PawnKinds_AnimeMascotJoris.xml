@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<PawnKindDef Name="BaseAnimeMascotJorisPawnKind">
-		<defName>SW_AnimeMascotJoris</defName>
+	<PawnKindDef Name="BaseAnimeMascotJorisPlayerPawnKind">
+		<defName>SW_AnimeMascotJorisPlayer</defName>
 		<label>Anime mascot joris</label>
 		<race>SW_Alien_AnimeMascotJoris</race>
 		<combatPower>50</combatPower>
@@ -31,8 +31,8 @@
 		</techHediffsTags>
 	</PawnKindDef>
 
-	<PawnKindDef Name="BaseTribalAnimeMascotJorisPawnKind">
-		<defName>SW_AnimeMascotJorisTribal</defName>
+	<PawnKindDef Name="BaseTribalAnimeMascotJorisPlayerPawnKind">
+		<defName>SW_AnimeMascotJorisPlayerTribal</defName>
 		<label>Tribal Anime mascot joris</label>
 		<race>SW_Alien_AnimeMascotJoris</race>
 		<combatPower>50</combatPower>

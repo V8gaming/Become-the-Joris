@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <AlienRace.ThingDef_AlienRace ParentName="JorisFolkRace">
-        <defName>SW_Alien_<!--Here--></defName>
-        <label><!--Here--></label>
-        <description><!--Here--></description>
+        <defName>SW_Alien_RoundJoris</defName>
+        <label>Round Joris</label>
+        <description>This Joris is unusually round. Local tribal nations say this particular Joris subspecies has been blessed by a war-god, but others say this Joris has been blessed only by a surplus of cake.</description>
         <alienRace>
             <generalSettings>
                 <alienPartGenerator>
                     <aliencrowntypes>
-                        <li><!--Here--></li>
+                        <li>RJ</li>
                     </aliencrowntypes>
                     <alienbodytypes>
-                        <li><!--Here--></li>
+                        <li>RJ</li>
                     </alienbodytypes>
                 </alienPartGenerator>
             </generalSettings>
@@ -20,8 +20,8 @@
                     <lifeStageDefs>
                         <li>AdultJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/<!--Here-->/Body/</body>
-                    <head>Pawn/<!--Here-->/Head/</head>
+                    <body>Pawn/RoundJoris/Body/</body>
+                    <head>Pawn/RoundJoris/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(1.7, 1.7)</customDrawSize>
@@ -39,8 +39,8 @@
                     <lifeStageDefs>
                         <li>TeenJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/<!--Here-->/Body/</body>
-                    <head>Pawn/<!--Here-->/Head/</head>
+                    <body>Pawn/RoundJoris/Body/</body>
+                    <head>Pawn/RoundJoris/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(1, 1)</customDrawSize>
@@ -58,8 +58,8 @@
                     <lifeStageDefs>
                         <li>BabyJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/<!--Here-->/Body/</body>
-                    <head>Pawn/<!--Here-->/Head/</head>
+                    <body>Pawn/RoundJoris/Body/</body>
+                    <head>Pawn/RoundJoris/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(0.4, 0.4)</customDrawSize>

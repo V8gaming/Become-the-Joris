@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <PawnKindDef Name="BaseBeefeaterJorisPawnKind">
-        <defName>SW_BeefeaterJoris</defName>
+    <PawnKindDef Name="BaseBeefeaterJorisPlayerPawnKind">
+        <defName>SW_BeefeaterJorisPlayer</defName>
         <label>Beefeater Joris</label>
         <race>SW_Alien_BeefeaterJoris</race>
         <combatPower>50</combatPower>
@@ -31,7 +31,7 @@
         </techHediffsTags>
     </PawnKindDef>
 
-    <PawnKindDef Name="BaseTribalBeefeaterJorisPawnKind">
+    <PawnKindDef Name="BaseTribalBeefeaterJorisPlayerPawnKind">
         <defName>SW_BeefeaterJorisPlayerTribal</defName>
         <label>Tribal Beefeater Joris</label>
         <race>SW_Alien_BeefeaterJoris</race>

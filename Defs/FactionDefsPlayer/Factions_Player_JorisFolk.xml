@@ -6,7 +6,7 @@
 		<label>Jorisfolk Colony</label>
 		<description>Your own community.</description>
 		<isPlayer>true</isPlayer>
-		<basicMemberKind>SW_PerfectlyNormalJoris</basicMemberKind>
+		<basicMemberKind>SW_PerfectlyNormalJorisPlayer</basicMemberKind>
 		<pawnsPlural>Jorisfolk</pawnsPlural>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>

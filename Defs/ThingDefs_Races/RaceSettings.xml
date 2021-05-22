@@ -9,25 +9,30 @@
                     <pawnKindEntries>
                         <li>
                             <kindDefs>
-                                <li>SW_AnimeMascotJoris</li>
+                                <li>SW_AnimeMascotJorisPlayer</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
                         <li>
                             <kindDefs>
-                                <li>SW_PerfectlyNormalJoris</li>
+                                <li>SW_PerfectlyNormalJorisPlayer</li>
                             </kindDefs>
                             <chance>5.0</chance>
                         </li>
                         <li>
                             <kindDefs>
-                                <li>SW_BeefeaterJoris</li>
+                                <li>SW_BeefeaterJorisPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_RoundJorisPlayer</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
                     </pawnKindEntries>
                     <factionDefs>
-                        <li>PlayerColony</li>
                         <li>SW_JorisFolkPlayerColony</li>
                     </factionDefs>
                 </li>
@@ -35,25 +40,31 @@
                     <pawnKindEntries>
                         <li>
                             <kindDefs>
-                                <li>SW_AnimeMascotJoris</li>
+                                <li>SW_AnimeMascotJorisPlayerTribal</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
                         <li>
                             <kindDefs>
-                                <li>SW_PerfectlyNormalJoris</li>
+                                <li>SW_PerfectlyNormalJorisPlayerTribal</li>
                             </kindDefs>
                             <chance>5.0</chance>
                         </li>
                         <li>
                             <kindDefs>
-                                <li>SW_BeefeaterJoris</li>
+                                <li>SW_BeefeaterJorisPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_RoundJorisPlayerTribal</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
                     </pawnKindEntries>
                     <factionDefs>
-                        <li>PlayerTribe</li> 
+                        <li>SW_JorisFolkPlayerTribe</li> 
                     </factionDefs>
                 </li>
             </startingColonists>
@@ -62,40 +73,62 @@
                     <pawnKindEntries>
                         <li>
                             <kindDefs>
-                                <li>SW_AnimeMascotJoris</li>
+                                <li>SW_AnimeMascotJorisPlayer</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
                         <li>
                             <kindDefs>
-                                <li>SW_PerfectlyNormalJoris</li>
+                                <li>SW_PerfectlyNormalJorisPlayer</li>
                             </kindDefs>
                             <chance>5.0</chance>
                         </li>
                         <li>
                             <kindDefs>
-                                <li>SW_BeefeaterJoris</li>
+                                <li>SW_BeefeaterJorisPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_RoundJorisPlayer</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
                     </pawnKindEntries>
                     <factionDefs>
-                        <li>PlayerColony</li> 
+                        <li>SW_JorisFolkPlayerColony</li> 
                     </factionDefs>
                 </li>
                 <li>
                     <pawnKindEntries>
                         <li>
                             <kindDefs>
-                                <li>SW_AnimeMascotJorisTribal</li>
+                                <li>SW_AnimeMascotJorisPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
                                 <li>SW_PerfectlyNormalJorisPlayerTribal</li>
-                                <li>SW_BeefeaterJorisPlayerTribal</li>
                             </kindDefs>
                             <chance>5.0</chance>
                         </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_BeefeaterJorisPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_RoundJorisPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
                     </pawnKindEntries>
                     <factionDefs>
-                        <li>PlayerTribe</li> 
+                        <li>SW_JorisFolkPlayerTribe</li>
                     </factionDefs>
                 </li>
             </alienwandererkinds>
