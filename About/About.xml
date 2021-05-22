@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Become the Joris</name>
+  <description>
+Become The Joris
+A race created by a mad scientist and sent back to the beginning of time, they became the gods, they became the people.
+
+This is a mod made using Humanoid Alien Races 2.0 and my sanity. This makes JorisFolk playable and with their abilities.
+
+Credit and thanks to Sarg for the statBases, Tools, RaceDefs and textures.
+And these people for textures as well.
+@Roll1d2
+@Lukelblitz
+@Sigma Draconis
+@LilScoot
+@Cragfury
+@chAkira96
+@Bratwurstinator
+@Rygoth
+@BarackBebop
+@Adronius
+
+P.S. Fuck head offsets.
+  </description>
+  <author>SwedishMask</author>
+  <packageId>swedishmask.becomethejoris</packageId>
+  <supportedVersions>
+	<li>1.2</li>
+  </supportedVersions>
+  <modDependencies>
+	<li>
+	  <packageId>sarg.jorisexperience_copy</packageId>
+      <displayName>The Joris Experience</displayName>
+	  <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2469797693</steamWorkshopUrl>
+	</li>
+	<li>
+	  <packageId>erdelf.HumanoidAlienRaces_copy</packageId>
+      <displayName>Humanoid Alien Races 2.0</displayName>
+	</li>
+  </modDependencies>
+  <loadAfter>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Royalty</li>
+	<li>brrainz.harmony</li>
+	<li>sarg.jorisexperience_copy</li>
+	<li>erdelf.HumanoidAlienRaces_copy</li>
+  </loadAfter>
+</ModMetaData>
