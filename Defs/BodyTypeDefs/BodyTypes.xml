@@ -13,4 +13,7 @@
     <BodyTypeDef>
         <defName>RJ</defName>
     </BodyTypeDef>
+    <BodyTypeDef>
+        <defName>BJ</defName>
+    </BodyTypeDef>
 </Defs>

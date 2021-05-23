@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <!--N1 = No space(PerfectlyNormalJoris) -->
-    <!--N2 = space(Perfectly Normal Joris) -->
-    <!--N3 = BodyPartDef(Base or BFJ) -->
+    <!--BlockJoris = No space(PerfectlyNormalJoris) -->
+    <!--Block Joris = space(Perfectly Normal Joris) -->
+    <!--BJ = BodyPartDef(Base or BFJ) -->
     <AlienRace.ThingDef_AlienRace ParentName="JorisFolkRace">
-        <defName>SW_Alien_N1</defName>
-        <label>N2</label>
-        <description><!--Here--></description>
+        <defName>SW_Alien_BlockJoris</defName>
+        <label>Block Joris</label>
+        <description>This species of Joris is from a far off RimWorld inhabited by strange villagers who trade only in green gems, and strange green pigs that explode when provoked. No one knows how this Joris crossed worlds, yet here he is.</description>
         <alienRace>
             <generalSettings>
                 <alienPartGenerator>
                     <aliencrowntypes>
-                        <li>N3</li>
+                        <li>BJ</li>
                     </aliencrowntypes>
                     <alienbodytypes>
-                        <li>N3</li>
+                        <li>BJ</li>
                     </alienbodytypes>
                 </alienPartGenerator>
             </generalSettings>
@@ -23,8 +23,8 @@
                     <lifeStageDefs>
                         <li>AdultJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/N1/Body/</body>
-                    <head>Pawn/N1/Head/</head>
+                    <body>Pawn/BlockJoris/Body/</body>
+                    <head>Pawn/BlockJoris/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(1.7, 1.7)</customDrawSize>
@@ -42,8 +42,8 @@
                     <lifeStageDefs>
                         <li>TeenJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/N1/Body/</body>
-                    <head>Pawn/N1/Head/</head>
+                    <body>Pawn/BlockJoris/Body/</body>
+                    <head>Pawn/BlockJoris/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(1, 1)</customDrawSize>
@@ -61,8 +61,8 @@
                     <lifeStageDefs>
                         <li>BabyJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/N1/Body/</body>
-                    <head>Pawn/N1/Head/</head>
+                    <body>Pawn/BlockJoris/Body/</body>
+                    <head>Pawn/BlockJoris/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(0.4, 0.4)</customDrawSize>
