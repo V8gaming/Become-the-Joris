@@ -19,4 +19,10 @@
     <BodyTypeDef>
         <defName>JAS</defName>
     </BodyTypeDef>
+    <BodyTypeDef>
+        <defName>CLJ</defName>
+    </BodyTypeDef>
+    <BodyTypeDef>
+        <defName>CSJ</defName>
+    </BodyTypeDef>
 </Defs>
