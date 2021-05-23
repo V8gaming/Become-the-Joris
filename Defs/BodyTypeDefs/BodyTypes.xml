@@ -16,4 +16,7 @@
     <BodyTypeDef>
         <defName>BJ</defName>
     </BodyTypeDef>
+    <BodyTypeDef>
+        <defName>JAS</defName>
+    </BodyTypeDef>
 </Defs>

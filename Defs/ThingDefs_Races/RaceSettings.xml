@@ -37,6 +37,12 @@
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JorisAstleyPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
                     </pawnKindEntries>
                     <factionDefs>
                         <li>SW_JorisFolkPlayerColony</li>
@@ -71,6 +77,12 @@
                         <li>
                             <kindDefs>
                                 <li>SW_BlockJorisPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JorisAstleyPlayerTribal</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
@@ -113,6 +125,12 @@
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JorisAstleyPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
                     </pawnKindEntries>
                     <factionDefs>
                         <li>SW_JorisFolkPlayerColony</li> 
@@ -147,6 +165,12 @@
                         <li>
                             <kindDefs>
                                 <li>SW_BlockJorisPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JorisAstleyPlayerTribal</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>

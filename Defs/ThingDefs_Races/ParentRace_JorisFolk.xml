@@ -85,7 +85,7 @@
 		<statBases>
 			<Mass>35</Mass>
 			<MarketValue>1500</MarketValue>
-			<MoveSpeed>4.5</MoveSpeed>
+			<MoveSpeed>4.6</MoveSpeed>
 			<Flammability>0.1</Flammability>
 			<ComfyTemperatureMin>-55</ComfyTemperatureMin>
 			<ComfyTemperatureMax>45</ComfyTemperatureMax>
