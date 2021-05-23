@@ -25,4 +25,10 @@
     <BodyTypeDef>
         <defName>CSJ</defName>
     </BodyTypeDef>
+    <BodyTypeDef>
+        <defName>EMJ</defName>
+    </BodyTypeDef>
+    <BodyTypeDef>
+        <defName>QJTS</defName>
+    </BodyTypeDef>
 </Defs>

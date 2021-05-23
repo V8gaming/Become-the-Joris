@@ -55,6 +55,18 @@
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_EmoJorisPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_QueenJorisTheSecondPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
                     </pawnKindEntries>
                     <factionDefs>
                         <li>SW_JorisFolkPlayerColony</li>
@@ -107,6 +119,18 @@
                         <li>
                             <kindDefs>
                                 <li>SW_ChainsawJorisPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_EmoJorisPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_QueenJorisTheSecondPlayerTribal</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
@@ -167,6 +191,18 @@
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_EmoJorisPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_QueenJorisTheSecondPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
                     </pawnKindEntries>
                     <factionDefs>
                         <li>SW_JorisFolkPlayerColony</li> 
@@ -219,6 +255,18 @@
                         <li>
                             <kindDefs>
                                 <li>SW_ChainsawJorisPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_EmoJorisPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_QueenJorisTheSecondPlayerTribal</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
