@@ -1,4 +1,4 @@
-# Become-the-Joris (WIP)
+# Become The Joris (WIP)
 
 ![Mod Preview](/About/Preview.png)
 
