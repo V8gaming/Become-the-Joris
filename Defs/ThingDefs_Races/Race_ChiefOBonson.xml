@@ -1,37 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <!--EmoJoris = No space(PerfectlyNormalJoris) -->
-    <!--Emo Joris = space(Perfectly Normal Joris) -->
-    <!--EMJ = BodyPartDef(Base or BFJ) -->
+    <!--ChiefOBonson = No space(PerfectlyNormalJoris) -->
+    <!--Chief O Bonson = space(Perfectly Normal Joris) -->
+    <!--COB = BodyPartDef(Base or BFJ) -->
     <AlienRace.ThingDef_AlienRace ParentName="JorisFolkRace">
-        <defName>SW_Alien_EmoJoris</defName>
-        <label>Emo Joris</label>
-        <description>A Joris that has longer hair than most Joris' that it specifically grew to not be like other Joris'. Unfortunately for this Joris, it backfired as it now bears a striking resemblance to a popular holonet horror film antagonist, and has subsequently been hunted to near extinction by startled traders and spacers alike.</description>
+        <defName>SW_Alien_ChiefOBonson</defName>
+        <label>Chief O Bonson</label>
+        <description>An innocent Joris that a cruel and unusual space crew dressed in a tightly fitting uniform, and forced to do mundane jobs. After accepting a new post, he fled from his enslavers but retained many useful skills from his shipborne days.</description>
         <alienRace>
             <generalSettings>
                 <alienPartGenerator>
                     <aliencrowntypes>
-                        <li>EMJ</li>
+                        <li>COB</li>
                     </aliencrowntypes>
                     <alienbodytypes>
-                        <li>EMJ</li>
+                        <li>COB</li>
                     </alienbodytypes>
                 </alienPartGenerator>
-                <forcedRaceTraitEntries>
-                    <li>
-                        <defName>NaturalMood</defName>
-                        <degree>-2</degree>
-                        <chance>100</chance>
-                    </li>
-                </forcedRaceTraitEntries>
             </generalSettings>
             <graphicPaths>
                 <li>
                     <lifeStageDefs>
                         <li>AdultJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/EmoJoris/Body/</body>
-                    <head>Pawn/EmoJoris/Head/</head>
+                    <body>Pawn/ChiefOBonson/Body/</body>
+                    <head>Pawn/ChiefOBonson/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(1.7, 1.7)</customDrawSize>
@@ -49,8 +42,8 @@
                     <lifeStageDefs>
                         <li>TeenJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/EmoJoris/Body/</body>
-                    <head>Pawn/EmoJoris/Head/</head>
+                    <body>Pawn/ChiefOBonson/Body/</body>
+                    <head>Pawn/ChiefOBonson/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(1, 1)</customDrawSize>
@@ -68,8 +61,8 @@
                     <lifeStageDefs>
                         <li>BabyJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/EmoJoris/Body/</body>
-                    <head>Pawn/EmoJoris/Head/</head>
+                    <body>Pawn/ChiefOBonson/Body/</body>
+                    <head>Pawn/ChiefOBonson/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(0.4, 0.4)</customDrawSize>

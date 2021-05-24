@@ -31,4 +31,13 @@
     <BodyTypeDef>
         <defName>QJTS</defName>
     </BodyTypeDef>
+    <BodyTypeDef>
+        <defName>FDJ</defName>
+    </BodyTypeDef>
+    <BodyTypeDef>
+        <defName>VJ</defName>
+    </BodyTypeDef>
+    <BodyTypeDef>
+        <defName>COB</defName>
+    </BodyTypeDef>
 </Defs>

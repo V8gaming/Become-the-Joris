@@ -75,6 +75,16 @@
 			 </li>
 		 </graphicPaths>
 		</alienRace>
+        <comps>
+            <li Class="AnimalBehaviours.CompProperties_ThoughtEffecter">
+                <radius>15</radius>
+                <tickInterval>1500</tickInterval>
+                <thoughtDef>JE_WaifuThought</thoughtDef>
+            </li>
+            <li Class="AnimalBehaviours.CompProperties_FixedGender">
+                <gender>Female</gender>
+            </li>
+        </comps>
 	</AlienRace.ThingDef_AlienRace>
 	
 </Defs>
