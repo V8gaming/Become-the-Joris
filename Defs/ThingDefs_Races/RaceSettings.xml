@@ -90,6 +90,12 @@
                                 <li>SW_IsaacJorisPlayer</li>
                             </kindDefs>
                             <chance>10.0</chance>
+                        </li>                        
+                        <li>
+                            <kindDefs>
+                                <li>SW_SuperJorisPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
                         </li>
                     </pawnKindEntries>
                     <factionDefs>
@@ -179,6 +185,12 @@
                         <li>
                             <kindDefs>
                                 <li>SW_IsaacJorisPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_SuperJorisPlayerTribal</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
@@ -275,6 +287,12 @@
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_SuperJorisPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
                     </pawnKindEntries>
                     <factionDefs>
                         <li>SW_JorisFolkPlayerColony</li> 
@@ -363,6 +381,12 @@
                         <li>
                             <kindDefs>
                                 <li>SW_IsaacJorisPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_SuperJorisPlayerTribal</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>

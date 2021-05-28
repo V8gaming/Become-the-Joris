@@ -42,5 +42,8 @@
     </BodyTypeDef>
     <BodyTypeDef>
         <defName>IJ</defName>
+    </BodyTypeDef>    
+    <BodyTypeDef>
+        <defName>SJ</defName>
     </BodyTypeDef>
 </Defs>
