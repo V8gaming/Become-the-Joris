@@ -40,4 +40,7 @@
     <BodyTypeDef>
         <defName>COB</defName>
     </BodyTypeDef>
+    <BodyTypeDef>
+        <defName>IJ</defName>
+    </BodyTypeDef>
 </Defs>

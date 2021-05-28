@@ -16,6 +16,7 @@
 					<useGenderedBodies>false</useGenderedBodies>
 					<colorChannels>
 						<li>
+                            <name>skin</name>
                             <first Class="ColorGenerator_Options">
                                 <options>
                                     <li>
