@@ -3,7 +3,7 @@
     <!--VoidJoris = No space(PerfectlyNormalJoris) -->
     <!--Void Joris = space(Perfectly Normal Joris) -->
     <!--VJ = BodyPartDef(Base or BFJ) -->
-    <AlienRace.ThingDef_AlienRace ParentName="JorisFolkRace">
+    <AlienRace.ThingDef_AlienRace ParentName="JorisfolkRace">
         <defName>SW_Alien_VoidJoris</defName>
         <label>Void Joris</label>
         <description>A mysterious Joris with a shrouded past and a very edgy disposition, the Void Joris can be nearly unstoppable when angered. Luckily enough it will usually keep to himself.</description>

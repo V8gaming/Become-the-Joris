@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <AlienRace.ThingDef_AlienRace ParentName="JorisFolkRace">
+    <AlienRace.ThingDef_AlienRace ParentName="JorisfolkRace">
         <defName>SW_Alien_RoundJoris</defName>
         <label>Round Joris</label>
         <description>This Joris is unusually round. Local tribal nations say this particular Joris subspecies has been blessed by a war-god, but others say this Joris has been blessed only by a surplus of cake.</description>

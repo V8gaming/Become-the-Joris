@@ -3,7 +3,7 @@
     <!--QueenJorisTheSecond = No space(PerfectlyNormalJoris) -->
     <!--Queen Joris The Second = space(Perfectly Normal Joris) -->
     <!--QJTS = BodyPartDef(Base or BFJ) -->
-    <AlienRace.ThingDef_AlienRace ParentName="JorisFolkRace">
+    <AlienRace.ThingDef_AlienRace ParentName="JorisfolkRace">
         <defName>SW_Alien_QueenJorisTheSecond</defName>
         <label>Queen Joris The Second</label>
         <description>Assumed to be the highest echelon of Joris society, this royal Joris is flanked by the lesser Beefeater Joris', which are lower in the Joris hierarchy, and subservient to this Joris. It is generally peaceful and benevolent but can become violent and aggressive when questioned or separated from its wealth..</description>

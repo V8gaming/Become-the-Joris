@@ -3,7 +3,7 @@
     <!--EmoJoris = No space(PerfectlyNormalJoris) -->
     <!--Emo Joris = space(Perfectly Normal Joris) -->
     <!--EMJ = BodyPartDef(Base or BFJ) -->
-    <AlienRace.ThingDef_AlienRace ParentName="JorisFolkRace">
+    <AlienRace.ThingDef_AlienRace ParentName="JorisfolkRace">
         <defName>SW_Alien_EmoJoris</defName>
         <label>Emo Joris</label>
         <description>A Joris that has longer hair than most Joris' that it specifically grew to not be like other Joris'. Unfortunately for this Joris, it backfired as it now bears a striking resemblance to a popular holonet horror film antagonist, and has subsequently been hunted to near extinction by startled traders and spacers alike.</description>

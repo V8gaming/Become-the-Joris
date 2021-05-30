@@ -3,7 +3,7 @@
 	<StorytellerDef ParentName="BaseStoryteller">
 		<defName>WojtekTheWrathful</defName>
 		<label>Wojtek The Wrathful</label>
-		<description>Enraged by RoboDaddy's death, he vows revenge to kill every human he sees. There is no sympathy for them, kill them, harvest them, torture them, create a world only with JorisFolk.</description>
+		<description>Enraged by RoboDaddy's death, he vows revenge to kill every human he sees. There is no sympathy for them, kill them, harvest them, torture them, create a world only with Jorisfolk.</description>
 		<portraitLarge>UI/StoryTellers/WojtekTheWrathful/WTW</portraitLarge>
 		<portraitTiny>UI/StoryTellers/WojtekTheWrathful/WTW_small</portraitTiny>
 		<listOrder>69</listOrder>

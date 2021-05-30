@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <AlienRace.ThingDef_AlienRace ParentName="JorisFolkRace">
+    <AlienRace.ThingDef_AlienRace ParentName="JorisfolkRace">
         <defName>SW_Alien_BeefeaterJoris</defName>
         <label>Beefeater Joris</label>
         <description>This Joris is the lowest ranking Joris on the Royal Joris hierarchy, and is relegated to guard duties for other, higher ranking, Royal Joris'. He has a deep resentment of Rimworld colonists who laugh and poke fun at his silly bearskin hat. The Beefeater Joris spends his days completely smashed.</description>
@@ -75,6 +75,12 @@
                 </li>
             </graphicPaths>
         </alienRace>
+        <comps>
+            <li Class="AnimalBehaviours.CompProperties_InitialHediff">
+                <hediffname>JE_Alcohol</hediffname>
+                <hediffseverity>1</hediffseverity>
+            </li>
+        </comps>
         <tools>
             <li>
                 <label>front left paw</label>

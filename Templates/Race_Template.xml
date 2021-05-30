@@ -3,7 +3,7 @@
     <!--N1 = No space(PerfectlyNormalJoris) -->
     <!--N2 = space(Perfectly Normal Joris) -->
     <!--N3 = BodyPartDef(Base or BFJ) -->
-    <AlienRace.ThingDef_AlienRace ParentName="JorisFolkRace">
+    <AlienRace.ThingDef_AlienRace ParentName="JorisfolkRace">
         <defName>SW_Alien_N1</defName>
         <label>N2</label>
         <description><!--Here--></description>

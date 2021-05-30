@@ -3,7 +3,7 @@
     <!--ColonistJoris = No space(PerfectlyNormalJoris) -->
     <!--Colonist Joris = space(Perfectly Normal Joris) -->
     <!--CLJ = BodyPartDef(Base or BFJ) -->
-    <AlienRace.ThingDef_AlienRace ParentName="JorisFolkRace">
+    <AlienRace.ThingDef_AlienRace ParentName="JorisfolkRace">
         <defName>SW_Alien_ColonistJoris</defName>
         <label>Colonist Joris</label>
         <description>A Joris dressed to impress, with a suave cowboy hat and flak jacket to boot, this Joris is ready and able to take on the wilds of the Rimworld frontier.</description>

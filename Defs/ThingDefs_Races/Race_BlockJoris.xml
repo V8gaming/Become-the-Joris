@@ -3,7 +3,7 @@
     <!--BlockJoris = No space(PerfectlyNormalJoris) -->
     <!--Block Joris = space(Perfectly Normal Joris) -->
     <!--BJ = BodyPartDef(Base or BFJ) -->
-    <AlienRace.ThingDef_AlienRace ParentName="JorisFolkRace">
+    <AlienRace.ThingDef_AlienRace ParentName="JorisfolkRace">
         <defName>SW_Alien_BlockJoris</defName>
         <label>Block Joris</label>
         <description>This species of Joris is from a far off RimWorld inhabited by strange villagers who trade only in green gems, and strange green pigs that explode when provoked. No one knows how this Joris crossed worlds, yet here he is.</description>

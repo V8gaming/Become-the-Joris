@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<AlienRace.ThingDef_AlienRace ParentName="JorisFolkRace">
+	<AlienRace.ThingDef_AlienRace ParentName="JorisfolkRace">
 		<defName>SW_Alien_AnimeMascotJoris</defName>
 		<label>Anime Mascot Joris</label>
 		<description>私はこれがどこに向かっているのかを知るのに十分な変態を見てきました。</description>

@@ -99,7 +99,7 @@
                         </li>
                     </pawnKindEntries>
                     <factionDefs>
-                        <li>SW_JorisFolkPlayerColony</li>
+                        <li>SW_JorisfolkPlayerColony</li>
                     </factionDefs>
                 </li>
                 <li>
@@ -196,7 +196,7 @@
                         </li>
                     </pawnKindEntries>
                     <factionDefs>
-                        <li>SW_JorisFolkPlayerTribe</li> 
+                        <li>SW_JorisfolkPlayerTribe</li> 
                     </factionDefs>
                 </li>
             </startingColonists>
@@ -295,7 +295,7 @@
                         </li>
                     </pawnKindEntries>
                     <factionDefs>
-                        <li>SW_JorisFolkPlayerColony</li> 
+                        <li>SW_JorisfolkPlayerColony</li> 
                     </factionDefs>
                 </li>
                 <li>
@@ -392,7 +392,7 @@
                         </li>
                     </pawnKindEntries>
                     <factionDefs>
-                        <li>SW_JorisFolkPlayerTribe</li>
+                        <li>SW_JorisfolkPlayerTribe</li>
                     </factionDefs>
                 </li>
             </alienwandererkinds>

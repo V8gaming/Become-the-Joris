@@ -11,7 +11,7 @@
 		<isFighter>false</isFighter>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<forceNormalGearQuality>true</forceNormalGearQuality>
-		<defaultFactionType>SW_JorisFolkPlayerColony</defaultFactionType>
+		<defaultFactionType>SW_JorisfolkPlayerColony</defaultFactionType>
 		<apparelTags>
 			<li>IndustrialBasic</li>
 		</apparelTags>
@@ -41,7 +41,7 @@
 		<isFighter>false</isFighter>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<forceNormalGearQuality>true</forceNormalGearQuality>
-		<defaultFactionType>SW_JorisFolkPlayerTribe</defaultFactionType>
+		<defaultFactionType>SW_JorisfolkPlayerTribe</defaultFactionType>
 		<apparelTags>
 			<li>Medieval</li>
 		</apparelTags>

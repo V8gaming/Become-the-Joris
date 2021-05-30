@@ -3,7 +3,7 @@
     <!--ChiefOBonson = No space(PerfectlyNormalJoris) -->
     <!--Chief O Bonson = space(Perfectly Normal Joris) -->
     <!--COB = BodyPartDef(Base or BFJ) -->
-    <AlienRace.ThingDef_AlienRace ParentName="JorisFolkRace">
+    <AlienRace.ThingDef_AlienRace ParentName="JorisfolkRace">
         <defName>SW_Alien_ChiefOBonson</defName>
         <label>Chief O Bonson</label>
         <description>An innocent Joris that a cruel and unusual space crew dressed in a tightly fitting uniform, and forced to do mundane jobs. After accepting a new post, he fled from his enslavers but retained many useful skills from his shipborne days.</description>

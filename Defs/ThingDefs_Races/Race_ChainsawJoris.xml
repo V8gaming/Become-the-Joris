@@ -3,7 +3,7 @@
     <!--ChainsawJoris = No space(PerfectlyNormalJoris) -->
     <!--Chainsaw Joris = space(Perfectly Normal Joris) -->
     <!--CSJ = BodyPartDef(Base or BFJ) -->
-    <AlienRace.ThingDef_AlienRace ParentName="JorisFolkRace">
+    <AlienRace.ThingDef_AlienRace ParentName="JorisfolkRace">
         <defName>SW_Alien_ChainsawJoris</defName>
         <label>Chainsaw Joris</label>
         <description>A poor polar bear that has had its limbs replaced with chainsaws by a deranged ultratech faction. A surprisingly formidable, yet ethically questionable, weapon.</description>
@@ -78,6 +78,42 @@
                 </li>
             </graphicPaths>
         </alienRace>
+        <tools>
+            <li>
+                <label>left chainsaw</label>
+                <capacities>
+                    <li>JE_BleedingWound</li>
+                </capacities>
+                <power>17</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>14</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <label>right chainsaw</label>
+                <capacities>
+                    <li>JE_BleedingWound</li>
+                </capacities>
+                <power>17</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>14</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+        </tools>
     </AlienRace.ThingDef_AlienRace>
 
 </Defs>

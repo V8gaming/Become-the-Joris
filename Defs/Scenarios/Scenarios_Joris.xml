@@ -2,7 +2,7 @@
 <Defs>
 
   <ScenarioDef>
-    <defName>SW_JorisFolkPlayerColonyScenario</defName>
+    <defName>SW_JorisfolkPlayerColonyScenario</defName>
     <label>Crashlanded Jorisfolk</label>
     <description></description>
     <scenario>
@@ -10,7 +10,7 @@
       <playerFaction>
         <def>PlayerFaction</def>
 		
-        <factionDef>SW_JorisFolkPlayerColony</factionDef>
+        <factionDef>SW_JorisfolkPlayerColony</factionDef>
       </playerFaction>
       <parts>
 
@@ -136,14 +136,14 @@
   </ScenarioDef>
   
 	<ScenarioDef>
-		<defName>SW_JorisFolkPlayerTribeScenario</defName>
+		<defName>SW_JorisfolkPlayerTribeScenario</defName>
 		<label>Lost Jorisfolk</label>
 		<description></description>
 		<scenario>
 			<summary></summary>
 			<playerFaction>
 				<def>PlayerFaction</def>
-				<factionDef>SW_JorisFolkPlayerTribe</factionDef>
+				<factionDef>SW_JorisfolkPlayerTribe</factionDef>
 			</playerFaction>
 			<parts>
 

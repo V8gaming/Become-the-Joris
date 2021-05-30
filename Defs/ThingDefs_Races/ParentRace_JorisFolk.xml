@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Defs>
-	<AlienRace.ThingDef_AlienRace Name="JorisFolkRace" ParentName="BasePawn">
-		<defName>Alien_JorisFolk</defName>
-		<label>The JorisFolk</label>
+	<AlienRace.ThingDef_AlienRace Name="JorisfolkRace" ParentName="BasePawn">
+		<defName>Alien_Jorisfolk</defName>
+		<label>The Jorisfolk</label>
 		<description>A race created by a mad scientist and sent back to the begining of time, they became the gods, they became the people.</description>
 		<alienRace>
 			<generalSettings>
