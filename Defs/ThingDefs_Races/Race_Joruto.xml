@@ -1,56 +1,39 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <!--ChadJoris = No space(PerfectlyNormalJoris) -->
-    <!--Chad Joris = space(Perfectly Normal Joris) -->
-    <!--CHJ = BodyPartDef(Base or BFJ) -->
+    <!--Joruto = No space(PerfectlyNormalJoris) -->
+    <!--Joruto = space(Perfectly Normal Joris) -->
+    <!--JO = BodyPartDef(Base or BFJ) -->
     <AlienRace.ThingDef_AlienRace ParentName="JorisfolkRace">
-        <defName>SW_Alien_ChadJoris</defName>
-        <label>Chad Joris</label>
-        <description>No one really knows if he's on steroids or if he is just build different. The alpha of the colony, just dont stand up for yourself.</description>
+        <defName>SW_Alien_Joruto</defName>
+        <label>Joruto</label>
+        <description>Joruto is a hyper-active and incredibly annoying Joris that yells at the most inappropriate moments, yet for reasons no scientist can explain, always seem to be able to endear itself to anyone it wants to. This naive ninja bear is capable of producing multiple copies of itself.</description>
         <comps>
-            <li Class="AnimalBehaviours.CompProperties_FixedGender">
-                <gender>Male</gender>
+            <li Class="AnimalBehaviours.CompProperties_AsexualReproduction">
+                <reproductionIntervalDays>1</reproductionIntervalDays>
+                <customString>Cloning in: </customString>
+                <isGreenGoo>true</isGreenGoo>
+                <GreenGooLimit>10</GreenGooLimit>
+                <GreenGooTarget>SW_Alien_Joruto</GreenGooTarget>
             </li>
         </comps>
         <alienRace>
             <generalSettings>
                 <alienPartGenerator>
                     <aliencrowntypes>
-                        <li>CHJ</li>
+                        <li>JO</li>
                     </aliencrowntypes>
                     <alienbodytypes>
-                        <li>CHJ</li>
+                        <li>JO</li>
                     </alienbodytypes>
                 </alienPartGenerator>
-                <chemicalSettings>
-                    <li>
-                        <chemical>Psychite</chemical>
-                        <reactions>
-                            <li Class="IngestionOutcomeDoer_GiveHediff">
-                                <hediffDef>HeartAttack</hediffDef>
-                                <severity>0.7</severity>
-                            </li>
-                        </reactions>
-                    </li>
-                </chemicalSettings>
-                <forcedRaceTraitEntries>
-                    <li>
-                        <defName>Wimp</defName>
-                        <chance>100</chance>
-                    </li>
-                    <li>
-                        <defName>Prick</defName>
-                        <chance>100</chance>
-                    </li>
-                </forcedRaceTraitEntries>
             </generalSettings>
             <graphicPaths>
                 <li>
                     <lifeStageDefs>
                         <li>AdultJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/ChadJoris/Body/</body>
-                    <head>Pawn/ChadJoris/Head/</head>
+                    <body>Pawn/Joruto/Body/</body>
+                    <head>Pawn/Joruto/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(1.7, 1.7)</customDrawSize>
@@ -68,8 +51,8 @@
                     <lifeStageDefs>
                         <li>TeenJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/ChadJoris/Body/</body>
-                    <head>Pawn/ChadJoris/Head/</head>
+                    <body>Pawn/Joruto/Body/</body>
+                    <head>Pawn/Joruto/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(1, 1)</customDrawSize>
@@ -87,8 +70,8 @@
                     <lifeStageDefs>
                         <li>BabyJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/ChadJoris/Body/</body>
-                    <head>Pawn/ChadJoris/Head/</head>
+                    <body>Pawn/Joruto/Body/</body>
+                    <head>Pawn/Joruto/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(0.4, 0.4)</customDrawSize>

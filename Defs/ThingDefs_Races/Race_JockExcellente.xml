@@ -1,56 +1,45 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <!--ChadJoris = No space(PerfectlyNormalJoris) -->
-    <!--Chad Joris = space(Perfectly Normal Joris) -->
-    <!--CHJ = BodyPartDef(Base or BFJ) -->
+    <!--JockExcellente = No space(PerfectlyNormalJoris) -->
+    <!--Jock Excellente = space(Perfectly Normal Joris) -->
+    <!--JE = BodyPartDef(Base or BFJ) -->
     <AlienRace.ThingDef_AlienRace ParentName="JorisfolkRace">
-        <defName>SW_Alien_ChadJoris</defName>
-        <label>Chad Joris</label>
-        <description>No one really knows if he's on steroids or if he is just build different. The alpha of the colony, just dont stand up for yourself.</description>
+        <defName>SW_Alien_JockExcellente</defName>
+        <label>Jock Excellente</label>
+        <description>A stylish and charismatic Joris who entrances colonists with his suave and seductive ways, but shares a bitter rivalry with other species of Excellente Joris'. Jock Excellente is known for his keen fashion sense, sporting a look that would make even the Stellarch jealous.</description>
         <comps>
-            <li Class="AnimalBehaviours.CompProperties_FixedGender">
-                <gender>Male</gender>
+            <li Class="AnimalBehaviours.CompProperties_InitialHediff">
+                <hediffname>JE_NoPainLowRest</hediffname>
+                <hediffseverity>1</hediffseverity>
+            </li>
+            <li Class="AnimalBehaviours.CompProperties_Regeneration">
+                <rateInTicks>20</rateInTicks>
+
+            </li>
+            <li Class="AnimalBehaviours.CompProperties_ThoughtEffecter">
+                <radius>15</radius>
+                <tickInterval>1500</tickInterval>
+                <thoughtDef>JE_LookAtTheMuscles</thoughtDef>
             </li>
         </comps>
         <alienRace>
             <generalSettings>
                 <alienPartGenerator>
                     <aliencrowntypes>
-                        <li>CHJ</li>
+                        <li>JE</li>
                     </aliencrowntypes>
                     <alienbodytypes>
-                        <li>CHJ</li>
+                        <li>JE</li>
                     </alienbodytypes>
                 </alienPartGenerator>
-                <chemicalSettings>
-                    <li>
-                        <chemical>Psychite</chemical>
-                        <reactions>
-                            <li Class="IngestionOutcomeDoer_GiveHediff">
-                                <hediffDef>HeartAttack</hediffDef>
-                                <severity>0.7</severity>
-                            </li>
-                        </reactions>
-                    </li>
-                </chemicalSettings>
-                <forcedRaceTraitEntries>
-                    <li>
-                        <defName>Wimp</defName>
-                        <chance>100</chance>
-                    </li>
-                    <li>
-                        <defName>Prick</defName>
-                        <chance>100</chance>
-                    </li>
-                </forcedRaceTraitEntries>
             </generalSettings>
             <graphicPaths>
                 <li>
                     <lifeStageDefs>
                         <li>AdultJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/ChadJoris/Body/</body>
-                    <head>Pawn/ChadJoris/Head/</head>
+                    <body>Pawn/JockExcellente/Body/</body>
+                    <head>Pawn/JockExcellente/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(1.7, 1.7)</customDrawSize>
@@ -68,8 +57,8 @@
                     <lifeStageDefs>
                         <li>TeenJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/ChadJoris/Body/</body>
-                    <head>Pawn/ChadJoris/Head/</head>
+                    <body>Pawn/JockExcellente/Body/</body>
+                    <head>Pawn/JockExcellente/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(1, 1)</customDrawSize>
@@ -87,8 +76,8 @@
                     <lifeStageDefs>
                         <li>BabyJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/ChadJoris/Body/</body>
-                    <head>Pawn/ChadJoris/Head/</head>
+                    <body>Pawn/JockExcellente/Body/</body>
+                    <head>Pawn/JockExcellente/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(0.4, 0.4)</customDrawSize>

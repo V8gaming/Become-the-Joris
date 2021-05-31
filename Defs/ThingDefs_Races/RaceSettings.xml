@@ -102,6 +102,18 @@
                                 <li>SW_ChadJorisPlayer</li>
                             </kindDefs>
                             <chance>10.0</chance>
+                        </li>                        
+                        <li>
+                            <kindDefs>
+                                <li>SW_JorutoPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JockExcellentePlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
                         </li>
                     </pawnKindEntries>
                     <factionDefs>
@@ -203,6 +215,18 @@
                         <li>
                             <kindDefs>
                                 <li>SW_ChadJorisPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JorutoPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JockExcellentePlayerTribal</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
@@ -311,111 +335,21 @@
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
-                    </pawnKindEntries>
-                    <factionDefs>
-                        <li>SW_JorisfolkPlayerColony</li> 
-                    </factionDefs>
-                </li>
-                <li>
-                    <pawnKindEntries>
                         <li>
                             <kindDefs>
-                                <li>SW_AnimeMascotJorisPlayerTribal</li>
+                                <li>SW_JorutoPlayer</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
                         <li>
                             <kindDefs>
-                                <li>SW_PerfectlyNormalJorisPlayerTribal</li>
-                            </kindDefs>
-                            <chance>5.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_BeefeaterJorisPlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_RoundJorisPlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_BlockJorisPlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_JorisAstleyPlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_ColonistJorisPlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_ChainsawJorisPlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_EmoJorisPlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_QueenJorisTheSecondPlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_FamousDevilJorisPlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_VoidJorisPlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_ChiefOBonsonPlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_IsaacJorisPlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_SuperJorisPlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_ChadJorisPlayerTribal</li>
+                                <li>SW_JockExcellentePlayer</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
                     </pawnKindEntries>
                     <factionDefs>
+                        <li>SW_JorisfolkPlayerColony</li>
                         <li>SW_JorisfolkPlayerTribe</li>
                     </factionDefs>
                 </li>

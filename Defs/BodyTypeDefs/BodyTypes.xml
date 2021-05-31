@@ -48,5 +48,11 @@
     </BodyTypeDef>    
     <BodyTypeDef>
         <defName>CHJ</defName>
+    </BodyTypeDef>    
+    <BodyTypeDef>
+        <defName>JO</defName>
+    </BodyTypeDef>    
+    <BodyTypeDef>
+        <defName>JE</defName>
     </BodyTypeDef>
 </Defs>

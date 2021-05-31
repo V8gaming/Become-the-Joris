@@ -6,8 +6,8 @@
         <degreeDatas>
             <li>
                 <label>Prick</label>
-                <description>{PAWN_nameDef} gets a rush from bullying people. He is six times as likely to start a social fight as others.</description>
-                <socialFightChanceFactor>4</socialFightChanceFactor>
+                <description>{PAWN_nameDef} likes to bully people. He is six times as likely to start a social fight as others.</description>
+                <socialFightChanceFactor>6</socialFightChanceFactor>
             </li>
         </degreeDatas>
         <requiredWorkTags>
