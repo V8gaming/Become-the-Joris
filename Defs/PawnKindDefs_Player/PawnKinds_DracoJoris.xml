@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-	<PawnKindDef Name="BaseN1PlayerPawnKind">
-		<defName>SW_N1Player</defName>
-		<label>N2</label>
-		<race>SW_Alien_N1</race>
+    <!--DracoJoris = No space(PerfectlyNormalJoris) -->
+    <!--Draco Joris = space(Perfectly Normal Joris) -->
+	<PawnKindDef Name="BaseDracoJorisPawnKind">
+		<defName>SW_DracoJorisPlayer</defName>
+		<label>Draco Joris</label>
+		<race>SW_Alien_DracoJoris</race>
 		<combatPower>50</combatPower>
 		<baseRecruitDifficulty>0.50</baseRecruitDifficulty>
 		<isFighter>false</isFighter>
@@ -31,10 +32,10 @@
 		</techHediffsTags>
 	</PawnKindDef>
 
-	<PawnKindDef Name="BaseTribalN1PlayerPawnKind">
-		<defName>SW_N1PlayerTribal</defName>
-		<label>Tribal N2</label>
-		<race>SW_Alien_N1</race>
+	<PawnKindDef Name="BaseTribalDracoJorisPawnKind">
+		<defName>SW_DracoJorisPlayerTribal</defName>
+		<label>Tribal Draco Joris</label>
+		<race>SW_Alien_DracoJoris</race>
 		<combatPower>50</combatPower>
 		<baseRecruitDifficulty>0.50</baseRecruitDifficulty>
 		<isFighter>false</isFighter>

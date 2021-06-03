@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-	<PawnKindDef Name="BaseN1PlayerPawnKind">
-		<defName>SW_N1Player</defName>
-		<label>N2</label>
-		<race>SW_Alien_N1</race>
+    <!--FatJorry = No space(PerfectlyNormalJoris) -->
+    <!--Fat Jorry = space(Perfectly Normal Joris) -->
+	<PawnKindDef Name="BaseFatJorryPawnKind">
+		<defName>SW_FatJorryPlayer</defName>
+		<label>Fat Jorry</label>
+		<race>SW_Alien_FatJorry</race>
 		<combatPower>50</combatPower>
 		<baseRecruitDifficulty>0.50</baseRecruitDifficulty>
 		<isFighter>false</isFighter>
@@ -31,10 +32,10 @@
 		</techHediffsTags>
 	</PawnKindDef>
 
-	<PawnKindDef Name="BaseTribalN1PlayerPawnKind">
-		<defName>SW_N1PlayerTribal</defName>
-		<label>Tribal N2</label>
-		<race>SW_Alien_N1</race>
+	<PawnKindDef Name="BaseTribalFatJorryPawnKind">
+		<defName>SW_FatJorryPlayerTribal</defName>
+		<label>Tribal Fat Jorry</label>
+		<race>SW_Alien_FatJorry</race>
 		<combatPower>50</combatPower>
 		<baseRecruitDifficulty>0.50</baseRecruitDifficulty>
 		<isFighter>false</isFighter>

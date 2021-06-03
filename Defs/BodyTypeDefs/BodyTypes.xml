@@ -54,5 +54,17 @@
     </BodyTypeDef>    
     <BodyTypeDef>
         <defName>JE</defName>
+    </BodyTypeDef>    
+    <BodyTypeDef>
+        <defName>FJO</defName>
+    </BodyTypeDef>    
+    <BodyTypeDef>
+        <defName>CBJ</defName>
+    </BodyTypeDef>    
+    <BodyTypeDef>
+        <defName>BAJ</defName>
+    </BodyTypeDef>    
+    <BodyTypeDef>
+        <defName>DJ</defName>
     </BodyTypeDef>
 </Defs>
