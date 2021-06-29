@@ -7,6 +7,9 @@
         <defName>SW_Alien_ColonistJoris</defName>
         <label>Colonist Joris</label>
         <description>A Joris dressed to impress, with a suave cowboy hat and flak jacket to boot, this Joris is ready and able to take on the wilds of the Rimworld frontier.</description>
+        <race>
+            <useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
+        </race>
         <alienRace>
             <generalSettings>
                 <alienPartGenerator>

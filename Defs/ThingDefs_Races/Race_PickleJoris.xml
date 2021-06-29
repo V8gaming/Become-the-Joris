@@ -6,6 +6,17 @@
         <defName>SW_Alien_PickleJoris</defName>
         <label>N2</label>
         <description>Then he turned himself into a pickle, funniest shit I've ever seen.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Pickle Joris doesn't produce any meat when slaughtered, instead producing a weird pickled vegetable substance. They can also be periodically harvested for it.\n\n&lt;color=#33d733&gt;Community Joris: This Joris was created by a member of the Roll1D2Games community. Credit to Sigma Draconis.&lt;/color&gt;</description>
+        <comps>
+            <li Class="AnimalBehaviours.CompProperties_AnimalProduct">
+                <resourceDef>JE_PickleJorisMeat</resourceDef>
+                <gatheringIntervalDays>1</gatheringIntervalDays>
+                <resourceAmount>15</resourceAmount>
+                <customResourceString>JE_PickleJorisMeat</customResourceString>
+            </li>
+        </comps>
+        <race>
+            <useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
+        </race>
         <alienRace>
             <generalSettings>
                 <alienPartGenerator>

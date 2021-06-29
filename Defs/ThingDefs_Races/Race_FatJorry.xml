@@ -7,6 +7,9 @@
         <defName>SW_Alien_FatJorry</defName>
         <label>Fat Jorry</label>
         <description>This Joris seems to be a fan of the legendary intergalatic celebrity Fat Larry, having modeled his hair and clothes after him. Strangely, this Joris always seems to smell of Pizza. Pardna!</description>
+        <race>
+            <useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
+        </race>
         <comps>
             <li Class="AnimalBehaviours.CompProperties_InitialHediff">
                 <hediffname>JE_TorsoMinigun</hediffname>

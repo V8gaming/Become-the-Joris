@@ -7,6 +7,9 @@
         <defName>SW_Alien_ChainsawJoris</defName>
         <label>Chainsaw Joris</label>
         <description>A poor polar bear that has had its limbs replaced with chainsaws by a deranged ultratech faction. A surprisingly formidable, yet ethically questionable, weapon.</description>
+        <race>
+            <useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
+        </race>
         <alienRace>
             <generalSettings>
                 <alienPartGenerator>

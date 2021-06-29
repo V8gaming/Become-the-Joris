@@ -7,6 +7,9 @@
         <defName>SW_Alien_JorisAstley</defName>
         <label>Joris Astley</label>
         <description>Joris is never going to give you up, never going to let you down, never going to run around and desert you. Never going to make you cry, never going to say goodbye, never going to tell a lie and hurt you.</description>
+        <race>
+            <useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
+        </race>
         <alienRace>
             <generalSettings>
                 <alienPartGenerator>

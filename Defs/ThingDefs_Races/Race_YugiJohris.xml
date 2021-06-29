@@ -1,19 +1,19 @@
 <Defs>
-    
-    
-    
     <AlienRace.ThingDef_AlienRace ParentName="JorisfolkRace">
         <defName>SW_Alien_YugiJohris</defName>
-        <label>N2</label>
+        <label>Yugi Johris</label>
         <description>A Joris with incredibly ostentatious hair, which Glitterworld veterinarians believe to be the source of its power. This Joris has been remarked as having surprisingly low aggression, but instead rallies other creatures to fight on its behalf, and is capable of controlling their actions through some unknown means.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: What are you talking about? This is just a perfectly normal Joris. Nothing to see here.</description>
+        <race>
+            <useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
+        </race>
         <alienRace>
             <generalSettings>
                 <alienPartGenerator>
                     <aliencrowntypes>
-                        <li>N3</li>
+                        <li>YJ</li>
                     </aliencrowntypes>
                     <alienbodytypes>
-                        <li>N3</li>
+                        <li>YJ</li>
                     </alienbodytypes>
                 </alienPartGenerator>
             </generalSettings>
@@ -22,8 +22,8 @@
                     <lifeStageDefs>
                         <li>AdultJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/N1/Body/</body>
-                    <head>Pawn/N1/Head/</head>
+                    <body>Pawn/YugiJohris/Body/</body>
+                    <head>Pawn/YugiJohris/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(1.7, 1.7)</customDrawSize>
@@ -41,8 +41,8 @@
                     <lifeStageDefs>
                         <li>TeenJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/N1/Body/</body>
-                    <head>Pawn/N1/Head/</head>
+                    <body>Pawn/YugiJohris/Body/</body>
+                    <head>Pawn/YugiJohris/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(1, 1)</customDrawSize>
@@ -60,8 +60,8 @@
                     <lifeStageDefs>
                         <li>BabyJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/N1/Body/</body>
-                    <head>Pawn/N1/Head/</head>
+                    <body>Pawn/YugiJohris/Body/</body>
+                    <head>Pawn/YugiJohris/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(0.4, 0.4)</customDrawSize>

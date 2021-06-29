@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<MVCF.ModDef>
+		<defName>SW_BecomeTheJoris</defName>
+		<label>Become The Joris</label>
+		<description>Adding animal ranged attacks for Become The Joris pawns</description>
+		<Features>
+			<RangedAnimals>true</RangedAnimals>			
+			<IntegratedToggle>true</IntegratedToggle>
+			<HediffVerbs>true</HediffVerbs>
+			<Drawing>true</Drawing>
+			<IndependentFire>true</IndependentFire>
+		</Features>
+	</MVCF.ModDef>
+</Defs>

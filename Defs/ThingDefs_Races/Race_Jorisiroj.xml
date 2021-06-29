@@ -6,6 +6,9 @@
         <defName>SW_Alien_JorisSiroj</defName>
         <label>N2</label>
         <description>Thisiht Jorisiroj hasah evolvedevlove twowt separatetarapes bodieseidob whichcihw operatetarepo ini completetelpmoc harmonynomrah - thisiht Jorisiroj isi fearederaef throughoutuohguorht theht galaxyxalag.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: The weird body plan of the Jorisiroj makes it dangerous in close quarters due to having two heads.\n\n&lt;color=#33d733&gt;Community Joris: This Joris was created by a member of the Roll1D2Games community. Credit to Rygoth.&lt;/color&gt;</description>
+        <race>
+            <useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
+        </race>
         <alienRace>
             <generalSettings>
                 <alienPartGenerator>

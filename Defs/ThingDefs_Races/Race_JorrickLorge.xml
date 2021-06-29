@@ -6,6 +6,9 @@
         <defName>SW_Alien_JorrickLorge</defName>
         <label>N2</label>
         <description>Uh... this Megasloth looks weird. It seems so happy, though...</description>
+        <race>
+            <useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
+        </race>
         <alienRace>
             <generalSettings>
                 <alienPartGenerator>

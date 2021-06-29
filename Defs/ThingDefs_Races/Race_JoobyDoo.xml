@@ -4,16 +4,31 @@
     
     <AlienRace.ThingDef_AlienRace ParentName="JorisfolkRace">
         <defName>SW_Alien_JoobyDoo</defName>
-        <label>N2</label>
+        <label>Jooby Doo</label>
         <description>Trouble always seems to follow this Joris, and as a result, it is a very easily frightened creature. Though it may seem imposing in size, this Joris makes for a fine companion for anyone capable of training such a skittish animal.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Nuzzle period, 12 hours. Jooby Doos will flee combat if they are damaged enough.</description>
+        <race>
+            <useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
+        </race>
+        <statBases>
+            <MoveSpeed>5.0</MoveSpeed>
+            <MarketValue>350</MarketValue>
+            <ComfyTemperatureMin>-50</ComfyTemperatureMin>
+        </statBases>
+        <comps>
+            <li Class="AnimalBehaviours.CompProperties_StateAfterHealthLoss">
+                <healthPercent>50</healthPercent>
+                <tickInterval>50</tickInterval>
+                <mentalState>PanicFlee</mentalState>
+            </li>
+        </comps>
         <alienRace>
             <generalSettings>
                 <alienPartGenerator>
                     <aliencrowntypes>
-                        <li>N3</li>
+                        <li>JD</li>
                     </aliencrowntypes>
                     <alienbodytypes>
-                        <li>N3</li>
+                        <li>JD</li>
                     </alienbodytypes>
                 </alienPartGenerator>
             </generalSettings>
@@ -22,8 +37,8 @@
                     <lifeStageDefs>
                         <li>AdultJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/N1/Body/</body>
-                    <head>Pawn/N1/Head/</head>
+                    <body>Pawn/JoobyDoo/Body/</body>
+                    <head>Pawn/JoobyDoo/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(1.7, 1.7)</customDrawSize>
@@ -41,8 +56,8 @@
                     <lifeStageDefs>
                         <li>TeenJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/N1/Body/</body>
-                    <head>Pawn/N1/Head/</head>
+                    <body>Pawn/JoobyDoo/Body/</body>
+                    <head>Pawn/JoobyDoo/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(1, 1)</customDrawSize>
@@ -60,8 +75,8 @@
                     <lifeStageDefs>
                         <li>BabyJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/N1/Body/</body>
-                    <head>Pawn/N1/Head/</head>
+                    <body>Pawn/JoobyDoo/Body/</body>
+                    <head>Pawn/JoobyDoo/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(0.4, 0.4)</customDrawSize>

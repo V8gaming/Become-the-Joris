@@ -4,6 +4,9 @@
         <defName>SW_Alien_RoundJoris</defName>
         <label>Round Joris</label>
         <description>This Joris is unusually round. Local tribal nations say this particular Joris subspecies has been blessed by a war-god, but others say this Joris has been blessed only by a surplus of cake.</description>
+        <race>
+            <useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
+        </race>
         <alienRace>
             <generalSettings>
                 <alienPartGenerator>

@@ -7,6 +7,9 @@
         <defName>SW_Alien_JockExcellente</defName>
         <label>Jock Excellente</label>
         <description>A stylish and charismatic Joris who entrances colonists with his suave and seductive ways, but shares a bitter rivalry with other species of Excellente Joris'. Jock Excellente is known for his keen fashion sense, sporting a look that would make even the Stellarch jealous.</description>
+        <race>
+            <useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
+        </race>
         <comps>
             <li Class="AnimalBehaviours.CompProperties_InitialHediff">
                 <hediffname>JE_NoPainLowRest</hediffname>

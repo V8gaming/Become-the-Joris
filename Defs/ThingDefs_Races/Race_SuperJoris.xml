@@ -7,6 +7,9 @@
         <defName>SW_Alien_SuperJoris</defName>
         <label>Super Joris</label>
         <description>Is it a bird? Is it a plane? No! It's a polar bear wearing a wig, haphazardly stuffed into tights that are far too small, but then again, very few tailors create polar bear specific tights.</description>
+        <race>
+            <useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
+        </race>
         <alienRace>
             <generalSettings>
                 <alienPartGenerator>

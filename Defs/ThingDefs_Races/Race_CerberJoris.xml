@@ -80,6 +80,7 @@
         </alienRace>
         <race>
             <body>JE_ThreeHeadedQuadrupedAnimalWithPaws</body>
+            <useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
         </race>
     </AlienRace.ThingDef_AlienRace>
 

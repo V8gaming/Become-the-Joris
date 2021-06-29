@@ -7,6 +7,9 @@
         <defName>SW_Alien_FamousDevilJoris</defName>
         <label>Famous Devil Joris</label>
         <description>Do not be fooled, this is no pig. This Joris has fashioned a polar bear-sized pig costume, equipped with teeny tiny devil horns and red jumpsuit, in order to cosplay as his favourite sauce mascot. A truly strange and bizarre Joris.</description>
+        <race>
+            <useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
+        </race>
         <alienRace>
             <generalSettings>
                 <alienPartGenerator>

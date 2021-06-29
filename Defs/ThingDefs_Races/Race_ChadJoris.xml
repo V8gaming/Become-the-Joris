@@ -7,6 +7,9 @@
         <defName>SW_Alien_ChadJoris</defName>
         <label>Chad Joris</label>
         <description>No one really knows if he's on steroids or if he is just build different. The alpha of the colony, just dont stand up for yourself.</description>
+        <race>
+            <useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
+        </race>
         <comps>
             <li Class="AnimalBehaviours.CompProperties_FixedGender">
                 <gender>Male</gender>

@@ -7,6 +7,9 @@
         <defName>SW_Alien_VoidJoris</defName>
         <label>Void Joris</label>
         <description>A mysterious Joris with a shrouded past and a very edgy disposition, the Void Joris can be nearly unstoppable when angered. Luckily enough it will usually keep to himself.</description>
+        <race>
+            <useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
+        </race>
         <alienRace>
             <generalSettings>
                 <alienPartGenerator>

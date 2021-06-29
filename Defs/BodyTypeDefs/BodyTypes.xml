@@ -66,5 +66,20 @@
     </BodyTypeDef>    
     <BodyTypeDef>
         <defName>DJ</defName>
+    </BodyTypeDef>    
+    <BodyTypeDef>
+        <defName>SJSB</defName>
+    </BodyTypeDef>    
+    <BodyTypeDef>
+        <defName>JD</defName>
+    </BodyTypeDef>    
+    <BodyTypeDef>
+        <defName>ZJ</defName>
+    </BodyTypeDef>    
+    <BodyTypeDef>
+        <defName>FLUJ</defName>
+    </BodyTypeDef>    
+    <BodyTypeDef>
+        <defName>YJ</defName>
     </BodyTypeDef>
 </Defs>

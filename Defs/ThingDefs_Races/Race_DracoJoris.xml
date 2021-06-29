@@ -171,6 +171,7 @@
             <intelligence>Humanlike</intelligence>
             <makesFootprints>true</makesFootprints>
             <lifeExpectancy>70</lifeExpectancy>
+            <useMeatFrom>Iguana</useMeatFrom>
             <leatherDef>Leather_Lizard</leatherDef>
             <body>QuadrupedAnimalWithClawsTailAndJowl</body>
             <nameGenerator>NamerPersonTribal</nameGenerator>

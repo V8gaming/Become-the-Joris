@@ -7,6 +7,9 @@
         <defName>SW_Alien_IsaacJoris</defName>
         <label>Isaac Joris</label>
         <description>Joris and his mother lived alone in a small house on a hill. Joris kept to himself - building snowmen and throwing snowballs as his mother ate seals and puffins by the iceberg.</description>
+        <race>
+            <useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
+        </race>
         <alienRace>
             <generalSettings>
                 <alienPartGenerator>

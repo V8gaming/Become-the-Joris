@@ -190,6 +190,7 @@
             <intelligence>Humanlike</intelligence>
             <makesFootprints>true</makesFootprints>
             <lifeExpectancy>70</lifeExpectancy>
+            <useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
             <leatherDef>Leather_Bear</leatherDef>
             <body>QuadrupedAnimalWithClawsTailAndJowl</body>
             <nameGenerator>NamerPersonTribal</nameGenerator>

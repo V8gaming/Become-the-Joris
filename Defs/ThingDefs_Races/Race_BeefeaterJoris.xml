@@ -4,6 +4,9 @@
         <defName>SW_Alien_BeefeaterJoris</defName>
         <label>Beefeater Joris</label>
         <description>This Joris is the lowest ranking Joris on the Royal Joris hierarchy, and is relegated to guard duties for other, higher ranking, Royal Joris'. He has a deep resentment of Rimworld colonists who laugh and poke fun at his silly bearskin hat. The Beefeater Joris spends his days completely smashed.</description>
+        <race>
+            <useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
+        </race>
         <alienRace>
             <generalSettings>
                 <alienPartGenerator>

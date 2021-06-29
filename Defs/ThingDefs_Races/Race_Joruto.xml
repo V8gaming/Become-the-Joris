@@ -7,6 +7,9 @@
         <defName>SW_Alien_Joruto</defName>
         <label>Joruto</label>
         <description>Joruto is a hyper-active and incredibly annoying Joris that yells at the most inappropriate moments, yet for reasons no scientist can explain, always seem to be able to endear itself to anyone it wants to. This naive ninja bear is capable of producing multiple copies of itself.</description>
+        <race>
+            <useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
+        </race>
         <comps>
             <li Class="AnimalBehaviours.CompProperties_AsexualReproduction">
                 <reproductionIntervalDays>1</reproductionIntervalDays>

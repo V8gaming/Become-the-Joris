@@ -138,6 +138,30 @@
                                 <li>SW_DracoJorisPlayer</li>
                             </kindDefs>
                             <chance>10.0</chance>
+                        </li>                        
+                        <li>
+                            <kindDefs>
+                                <li>SW_SpongejorisSquarebonsonPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>                        
+                        <li>
+                            <kindDefs>
+                                <li>SW_JoobyDooPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>                        
+                        <li>
+                            <kindDefs>
+                                <li>SW_ZombieJorisPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>                        
+                        <li>
+                            <kindDefs>
+                                <li>SW_FourLeggedUniJorisPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
                         </li>
                     </pawnKindEntries>
                     <factionDefs>
@@ -275,6 +299,30 @@
                         <li>
                             <kindDefs>
                                 <li>SW_DracoJorisPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_SpongejorisSquarebonsonPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JoobyDooPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_ZombieJorisPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>                        
+                        <li>
+                            <kindDefs>
+                                <li>SW_FourLeggedUniJorisPlayerTribal</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
@@ -419,6 +467,30 @@
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_SpongejorisSquarebonsonPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JoobyDooPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_ZombieJorisPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>                        
+                        <li>
+                            <kindDefs>
+                                <li>SW_FourLeggedUniJorisPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
                     </pawnKindEntries>
                     <factionDefs>
                         <li>SW_JorisfolkPlayerColony</li>
@@ -555,6 +627,30 @@
                         <li>
                             <kindDefs>
                                 <li>SW_DracoJorisPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_SpongejorisSquarebonsonPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JoobyDooPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_ZombieJorisPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>                        
+                        <li>
+                            <kindDefs>
+                                <li>SW_FourLeggedUniJorisPlayerTribal</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
