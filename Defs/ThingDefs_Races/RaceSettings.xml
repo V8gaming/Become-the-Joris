@@ -162,30 +162,6 @@
                                 <li>SW_FourLeggedUniJorisPlayer</li>
                             </kindDefs>
                             <chance>10.0</chance>
-                        </li>                        
-                        <li>
-                            <kindDefs>
-                                <li>SW_YugiJohrisPlayer</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>                        
-                        <li>
-                            <kindDefs>
-                                <li>SW_JokuPlayer</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>                        
-                        <li>
-                            <kindDefs>
-                                <li>SW_JorisThePoohPlayer</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>                        
-                        <li>
-                            <kindDefs>
-                                <li>SW_JJorisJamesonPlayer</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
                         </li>
                     </pawnKindEntries>
                     <factionDefs>
@@ -347,30 +323,6 @@
                         <li>
                             <kindDefs>
                                 <li>SW_FourLeggedUniJorisPlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_YugiJohrisPlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_JorisThePoohPlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_JokuPlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_JJorisJamesonPlayerTribal</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
@@ -539,30 +491,6 @@
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_YugiJohrisPlayer</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_JokuPlayer</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_JorisThePoohPlayer</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_JJorisJamesonPlayer</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
                     </pawnKindEntries>
                     <factionDefs>
                         <li>SW_JorisfolkPlayerColony</li>
@@ -723,30 +651,6 @@
                         <li>
                             <kindDefs>
                                 <li>SW_FourLeggedUniJorisPlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_YugiJohrisPlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_JokuPlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_JorisThePoohPlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_JJorisJamesonPlayerTribal</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
