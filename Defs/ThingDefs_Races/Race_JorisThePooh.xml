@@ -4,7 +4,7 @@
     
     <AlienRace.ThingDef_AlienRace ParentName="JorisfolkRace">
         <defName>SW_Alien_JorisThePooh</defName>
-        <label>N2</label>
+        <label>Joris The Pooh</label>
         <description>Oh bother - this Joris ate too much honey! Not only does he now have a golden-honey hue, he always has an abundance of honey for your colonists that he's happy to share.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Joris the Pooh can be periodically harvested for random honeys (this requires RimBees to be installed).\n\n&lt;color=#33d733&gt;Community Joris: This Joris was created by a member of the Roll1D2Games community. Credit to BarackBebop.&lt;/color&gt;</description>
         <race>
             <useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
@@ -13,10 +13,10 @@
             <generalSettings>
                 <alienPartGenerator>
                     <aliencrowntypes>
-                        <li>N3</li>
+                        <li>JTP</li>
                     </aliencrowntypes>
                     <alienbodytypes>
-                        <li>N3</li>
+                        <li>JTP</li>
                     </alienbodytypes>
                 </alienPartGenerator>
             </generalSettings>
@@ -25,8 +25,8 @@
                     <lifeStageDefs>
                         <li>AdultJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/N1/Body/</body>
-                    <head>Pawn/N1/Head/</head>
+                    <body>Pawn/JorisThePooh/Body/</body>
+                    <head>Pawn/JorisThePooh/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(1.7, 1.7)</customDrawSize>
@@ -44,8 +44,8 @@
                     <lifeStageDefs>
                         <li>TeenJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/N1/Body/</body>
-                    <head>Pawn/N1/Head/</head>
+                    <body>Pawn/JorisThePooh/Body/</body>
+                    <head>Pawn/JorisThePooh/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(1, 1)</customDrawSize>
@@ -63,8 +63,8 @@
                     <lifeStageDefs>
                         <li>BabyJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/N1/Body/</body>
-                    <head>Pawn/N1/Head/</head>
+                    <body>Pawn/JorisThePooh/Body/</body>
+                    <head>Pawn/JorisThePooh/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(0.4, 0.4)</customDrawSize>
