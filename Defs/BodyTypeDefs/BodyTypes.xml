@@ -81,5 +81,17 @@
     </BodyTypeDef>    
     <BodyTypeDef>
         <defName>YJ</defName>
+    </BodyTypeDef>    
+    <BodyTypeDef>
+        <defName>JJJ</defName>
+    </BodyTypeDef>    
+    <BodyTypeDef>
+        <defName>JTP</defName>
+    </BodyTypeDef>    
+    <BodyTypeDef>
+        <defName>J</defName>
+    </BodyTypeDef>    
+    <BodyTypeDef>
+        <defName>JS</defName>
     </BodyTypeDef>
 </Defs>
