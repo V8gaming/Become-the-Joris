@@ -4,7 +4,7 @@
     
     <AlienRace.ThingDef_AlienRace ParentName="JorisfolkRace">
         <defName>SW_Alien_JonicTheHedgehog</defName>
-        <label>N2</label>
+        <label>Jonic The Hedgehog</label>
         <description>This strange blue Joris is an exceptionally fast creature, with stories spreading far and wide of it rolling around at the speed of sound. Its feet are said to bring untold fortune to anyone capable of capturing such an elusive Joris.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: While not as strong as other Jorises, Jonic is the fastest.</description>
         <race>
             <useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
@@ -13,10 +13,10 @@
             <generalSettings>
                 <alienPartGenerator>
                     <aliencrowntypes>
-                        <li>N3</li>
+                        <li>JTH</li>
                     </aliencrowntypes>
                     <alienbodytypes>
-                        <li>N3</li>
+                        <li>JTH</li>
                     </alienbodytypes>
                 </alienPartGenerator>
             </generalSettings>
@@ -25,8 +25,8 @@
                     <lifeStageDefs>
                         <li>AdultJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/N1/Body/</body>
-                    <head>Pawn/N1/Head/</head>
+                    <body>Pawn/JonicTheHedgehog/Body/</body>
+                    <head>Pawn/JonicTheHedgehog/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(1.7, 1.7)</customDrawSize>
@@ -44,8 +44,8 @@
                     <lifeStageDefs>
                         <li>TeenJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/N1/Body/</body>
-                    <head>Pawn/N1/Head/</head>
+                    <body>Pawn/JonicTheHedgehog/Body/</body>
+                    <head>Pawn/JonicTheHedgehog/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(1, 1)</customDrawSize>
@@ -63,8 +63,8 @@
                     <lifeStageDefs>
                         <li>BabyJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/N1/Body/</body>
-                    <head>Pawn/N1/Head/</head>
+                    <body>Pawn/JonicTheHedgehog/Body/</body>
+                    <head>Pawn/JonicTheHedgehog/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(0.4, 0.4)</customDrawSize>

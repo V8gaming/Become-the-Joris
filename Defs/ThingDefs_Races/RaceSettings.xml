@@ -187,6 +187,42 @@
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JovidBowiePlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JonicTheHedgehogPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>                        
+                        <li>
+                            <kindDefs>
+                                <li>SW_JordonFreemanPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JagothGrrPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>                        
+                        <li>
+                            <kindDefs>
+                                <li>SW_JonerysBonbeareanPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>                        
+                        <li>
+                            <kindDefs>
+                                <li>SW_JorisWhatLivesInASocietyPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
                     </pawnKindEntries>
                     <factionDefs>
                         <li>SW_JorisfolkPlayerColony</li>
@@ -371,6 +407,42 @@
                         <li>
                             <kindDefs>
                                 <li>SW_JorisSirojPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>                        
+                        <li>
+                            <kindDefs>
+                                <li>SW_JovidBowiePlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JonicTheHedgehogPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JordonFreemanPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>                        
+                        <li>
+                            <kindDefs>
+                                <li>SW_JagothGrrPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JonerysBonbeareanPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JorisWhatLivesInASocietyPlayerTribal</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
@@ -562,6 +634,42 @@
                                 <li>SW_JorisSirojPlayer</li>
                             </kindDefs>
                             <chance>10.0</chance>
+                        </li>                        
+                        <li>
+                            <kindDefs>
+                                <li>SW_JovidBowiePlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JonicTheHedgehogPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JordonFreemanPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JagothGrrPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JonerysBonbeareanPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JorisWhatLivesInASocietyPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
                         </li>
                     </pawnKindEntries>
                     <factionDefs>
@@ -747,6 +855,42 @@
                         <li>
                             <kindDefs>
                                 <li>SW_JorisSirojPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>                        
+                        <li>
+                            <kindDefs>
+                                <li>SW_JovidBowiePlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JonicTheHedgehogPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JordonFreemanPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JagothGrrPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JonerysBonbeareanPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JorisWhatLivesInASocietyPlayerTribal</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>

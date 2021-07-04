@@ -93,5 +93,23 @@
     </BodyTypeDef>    
     <BodyTypeDef>
         <defName>JS</defName>
+    </BodyTypeDef>    
+    <BodyTypeDef>
+        <defName>JB</defName>
+    </BodyTypeDef>    
+    <BodyTypeDef>
+        <defName>JTH</defName>
+    </BodyTypeDef>    
+    <BodyTypeDef>
+        <defName>JF</defName>
+    </BodyTypeDef>    
+    <BodyTypeDef>
+        <defName>JG</defName>
+    </BodyTypeDef>    
+    <BodyTypeDef>
+        <defName>JBb</defName>
+    </BodyTypeDef>    
+    <BodyTypeDef>
+        <defName>JWLIAS</defName>
     </BodyTypeDef>
 </Defs>
