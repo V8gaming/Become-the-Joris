@@ -111,5 +111,14 @@
     </BodyTypeDef>    
     <BodyTypeDef>
         <defName>JWLIAS</defName>
+    </BodyTypeDef>    
+    <BodyTypeDef>
+        <defName>JL</defName>
+    </BodyTypeDef>    
+    <BodyTypeDef>
+        <defName>JM</defName>
+    </BodyTypeDef>    
+    <BodyTypeDef>
+        <defName>JOR</defName>
     </BodyTypeDef>
 </Defs>
