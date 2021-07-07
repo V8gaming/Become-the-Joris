@@ -120,5 +120,8 @@
     </BodyTypeDef>    
     <BodyTypeDef>
         <defName>JOR</defName>
+    </BodyTypeDef>    
+    <BodyTypeDef>
+        <defName>Jor</defName>
     </BodyTypeDef>
 </Defs>
