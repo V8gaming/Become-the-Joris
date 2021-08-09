@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<SoundDef>
+		<defName>SW_SBJB_Call</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>SW_Sponge/SW_SBJB_Call</clipFolderPath>
+					</li>
+				</grains>
+				<pitchRange>
+					<min>1</min>
+					<max>1</max>
+				</pitchRange>
+                <volumeRange>
+                    <min>15</min>
+                    <max>25</max>
+                </volumeRange>
+				<distRange>
+					<min>0</min>
+					<max>70</max>
+				</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+</Defs>

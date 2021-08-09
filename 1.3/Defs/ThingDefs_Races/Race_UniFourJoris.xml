@@ -197,9 +197,6 @@
                     </alienbodytypes>
                 </alienPartGenerator>
             </generalSettings>
-            <hairSettings>
-                <hasHair>false</hasHair>
-            </hairSettings>
             <thoughtSettings>
                 <cannotReceiveThoughts>
                     <li>ObservedLayingCorpse</li>

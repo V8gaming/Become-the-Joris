@@ -15,7 +15,9 @@
 			<li>(0, 0.737, 0.847)</li>
 		</colorSpectrum>
 		<techLevel>Industrial</techLevel>
-
+        <hairTags>
+			<li>NoHairLikeShowHair</li>
+		</hairTags>
 		<backstoryFilters>
 			<li>
 				<categories>
@@ -28,9 +30,6 @@
 		<startingResearchTags>
 			<li>ClassicStart</li>
 		</startingResearchTags>
-		<hairTags>
-			<li>NoHairLikeShowHair</li>
-		</hairTags>
 		<apparelStuffFilter>
 			<thingDefs>
 				<li>Synthread</li>
@@ -58,7 +57,7 @@
 		</backstoryFilters>
 		<settlementTexturePath>World/WorldObjects/TribalSettlement</settlementTexturePath>
 		<factionIconPath>World/WorldObjects/Expanding/Village</factionIconPath>
-		<pawnNameMaker>NamerPersonTribal</pawnNameMaker>
+		<pawnNameMaker>NamerPersonCorunan</pawnNameMaker>
 		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
 		<factionNameMaker>NamerFactionTribal</factionNameMaker>
 		<settlementNameMaker>NamerSettlementTribal</settlementNameMaker>

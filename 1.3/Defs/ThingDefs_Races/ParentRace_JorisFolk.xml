@@ -1,46 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
+
 <Defs>
-    <!--BiblicallyAccurateJoris = No space(PerfectlyNormalJoris) -->
-    <!--Biblically Accurate Joris = space(Perfectly Normal Joris) -->
-    <!--BAJ = BodyPartDef(Base or BFJ) -->
-    <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
-        <defName>SW_Alien_BiblicallyAccurateJoris</defName>
-        <label>Draconic Joris</label>
-        <description>For behold, the Joris will come in fire\n\nAnd His chariots like the whirlwind,\n\nTo render His anger with fury,\n\nAnd His rebuke with flames of fire.\n\nFor the Joris will execute judgment by fire\n\nAnd by His sword on all flesh,\n\nAnd those slain by the Joris will be many.\n\nA mythical Joris, rumoured to exist only on the further and more distant Rimworlds - the biblically accurate Joris is a fearsome sight to behold, and many spacefarers claim to have heard its whispers of "Be not afraid". Imperial cataphracts are known for telling horror stories of the biblically accurate Joris to new recruits.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: The sun will be darkened, and the moon will not give its light, and the stars will fall from the sky, and the powers of the heavens will be shaken. And then the sign of the Son of Joris will appear in the sky, and then all the tribes of the earth will mourn, and they will see the Son of Joris coming on the clouds of the sky with power and great glory. And He will send forth His angels with a great trumpet and they will gather together His elect from the four winds, from one end of the sky to the other.</description>
-        <tools>
-            <li>
-                <capacities>
-                    <li>Bite</li>
-                </capacities>
-                <power>23.6</power>
-                <cooldownTime>1</cooldownTime>
-                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-                <chanceFactor>0.5</chanceFactor>
-                <surpriseAttack>
-                    <extraMeleeDamages>
-                        <li>
-                            <def>Stun</def>
-                            <amount>14</amount>
-                        </li>
-                    </extraMeleeDamages>
-                </surpriseAttack>
-            </li>
-        </tools>
-        <statBases>
-            <Mass>35</Mass>
-            <MarketValue>1500</MarketValue>
-            <MoveSpeed>6</MoveSpeed>
-            <Flammability>0.1</Flammability>
-            <ComfyTemperatureMin>-55</ComfyTemperatureMin>
-            <ComfyTemperatureMax>45</ComfyTemperatureMax>
-            <MentalBreakThreshold>-0.30</MentalBreakThreshold>
-            <LeatherAmount>20</LeatherAmount>
-            <PsychicSensitivity>1.0</PsychicSensitivity>
-            <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
-            <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
-            <ArmorRating_Heat>0.20</ArmorRating_Heat>
-            <WorkSpeedGlobal>1.1</WorkSpeedGlobal>
-        </statBases>
+    <AlienRace.ThingDef_AlienRace Name="JorisfolkRace" ParentName="BasePawn">
+        <defName>Alien_Jorisfolk</defName>
+        <label>The Jorisfolk</label>
+        <description>A race created by a mad scientist and sent back to the begining of time, they became the gods, they became the people.</description>
         <alienRace>
             <generalSettings>
                 <maleGenderProbability>0.5</maleGenderProbability>
@@ -48,12 +12,6 @@
                 <humanRecipeImport>false</humanRecipeImport>
                 <immuneToXenophobia>false</immuneToXenophobia>
                 <alienPartGenerator>
-                    <aliencrowntypes>
-                        <li>BAJ</li>
-                    </aliencrowntypes>
-                    <alienbodytypes>
-                        <li>BAJ</li>
-                    </alienbodytypes>
                     <useGenderedHeads>false</useGenderedHeads>
                     <useGenderedBodies>false</useGenderedBodies>
                     <colorChannels>
@@ -71,9 +29,26 @@
                     </colorChannels>
                 </alienPartGenerator>
             </generalSettings>
-            <hairSettings>
-                <hasHair>false</hasHair>
-            </hairSettings>
+            <styleSettings>
+                <li>
+                    <key>HairDef</key>
+                    <value>
+                        <hasStyle>false</hasStyle>
+                    </value>
+                </li>
+                <li>
+                    <key>TattooDef</key>
+                    <value>
+                        <hasStyle>false</hasStyle>
+                    </value>
+                </li>
+                <li>
+                    <key>BeardDef</key>
+                    <value>
+                        <hasStyle>false</hasStyle>
+                    </value>
+                </li>
+            </styleSettings>
             <thoughtSettings>
                 <cannotReceiveThoughts>
                     <li>ObservedLayingCorpse</li>
@@ -124,75 +99,94 @@
                 <isSentient>true</isSentient>
                 <hasBlood>true</hasBlood>
             </compatibility>
-            <graphicPaths>
-                <li>
-                    <lifeStageDefs>
-                        <li>AdultJorisStage</li>
-                    </lifeStageDefs>
-                    <body>Pawn/BiblicallyAccurateJoris/Body/</body>
-                    <head>Pawn/BiblicallyAccurateJoris/Head/</head>
-                    <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
-                    <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
-                    <customDrawSize>(1.7, 1.7)</customDrawSize>
-                    <customPortraitDrawSize>(1.2, 1.2)</customPortraitDrawSize>
-                    <customHeadDrawSize>(1.7, 1.7)</customHeadDrawSize>
-                    <customPortraitHeadDrawSize>(1.2, 1.2)</customPortraitHeadDrawSize>
-                    <headOffsetDirectional>
-                        <north>(0.0,0.0)</north>
-                        <east>(0.0,0.0)</east>
-                        <south>(0.0,0.0)</south>
-                        <west>(0.0,0.0)</west>
-                    </headOffsetDirectional>
-                </li>
-                <li>
-                    <lifeStageDefs>
-                        <li>TeenJorisStage</li>
-                    </lifeStageDefs>
-                    <body>Pawn/BiblicallyAccurateJoris/Body/</body>
-                    <head>Pawn/BiblicallyAccurateJoris/Head/</head>
-                    <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
-                    <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
-                    <customDrawSize>(1, 1)</customDrawSize>
-                    <customPortraitDrawSize>(1.2, 1.2)</customPortraitDrawSize>
-                    <customHeadDrawSize>(1, 1)</customHeadDrawSize>
-                    <customPortraitHeadDrawSize>(1.2, 1.2)</customPortraitHeadDrawSize>
-                    <headOffsetDirectional>
-                        <north>(0.0,0.0)</north>
-                        <east>(0.0,0.0)</east>
-                        <south>(0.0,0.0)</south>
-                        <west>(0.0,0.0)</west>
-                    </headOffsetDirectional>
-                </li>
-                <li>
-                    <lifeStageDefs>
-                        <li>BabyJorisStage</li>
-                    </lifeStageDefs>
-                    <body>Pawn/BiblicallyAccurateJoris/Body/</body>
-                    <head>Pawn/BiblicallyAccurateJoris/Head/</head>
-                    <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
-                    <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
-                    <customDrawSize>(0.4, 0.4)</customDrawSize>
-                    <customPortraitDrawSize>(1.2, 1.2)</customPortraitDrawSize>
-                    <customHeadDrawSize>(0.4, 0.4)</customHeadDrawSize>
-                    <customPortraitHeadDrawSize>(1.2, 1.2)</customPortraitHeadDrawSize>
-                    <headOffsetDirectional>
-                        <north>(0.0,0.0)</north>
-                        <east>(0.0,0.0)</east>
-                        <south>(0.0,0.0)</south>
-                        <west>(0.0,0.0)</west>
-                    </headOffsetDirectional>
-                </li>
-            </graphicPaths>
         </alienRace>
+        <statBases>
+            <Mass>35</Mass>
+            <MarketValue>1500</MarketValue>
+            <MoveSpeed>4.6</MoveSpeed>
+            <Flammability>0.1</Flammability>
+            <ComfyTemperatureMin>-55</ComfyTemperatureMin>
+            <ComfyTemperatureMax>45</ComfyTemperatureMax>
+            <MentalBreakThreshold>-0.30</MentalBreakThreshold>
+            <LeatherAmount>20</LeatherAmount>
+            <PsychicSensitivity>1.0</PsychicSensitivity>
+            <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+            <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+            <ArmorRating_Heat>0.20</ArmorRating_Heat>
+            <WorkSpeedGlobal>1.1</WorkSpeedGlobal>
+        </statBases>
+        <tools>
+            <li>
+                <label>left claw</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>17</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>14</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <label>right claw</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>17</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>14</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <capacities>
+                    <li>Bite</li>
+                </capacities>
+                <power>23.6</power>
+                <cooldownTime>2.6</cooldownTime>
+                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+                <chanceFactor>0.5</chanceFactor>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>14</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>11</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+        </tools>
         <race>
             <thinkTreeMain>Humanlike</thinkTreeMain>
             <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
             <intelligence>Humanlike</intelligence>
             <makesFootprints>true</makesFootprints>
             <lifeExpectancy>70</lifeExpectancy>
-            <useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
             <leatherDef>Leather_Bear</leatherDef>
-            <body>QuadrupedAnimalWithClawsTailAndJowl</body>
+            <body>QuadrupedAnimalWithPaws</body>
             <nameGenerator>NamerPersonCorunan</nameGenerator>
             <baseBodySize>2.15</baseBodySize>
             <baseHealthScale>2.5</baseHealthScale>
@@ -280,5 +274,4 @@
             <li>Anesthetize</li>
         </recipes>
     </AlienRace.ThingDef_AlienRace>
-
 </Defs>

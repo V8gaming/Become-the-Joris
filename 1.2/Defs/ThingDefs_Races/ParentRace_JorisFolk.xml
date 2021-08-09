@@ -170,7 +170,7 @@
 			<lifeExpectancy>70</lifeExpectancy>
 			<leatherDef>Leather_Bear</leatherDef>
 			<body>QuadrupedAnimalWithPaws</body>
-            <nameGenerator>NamerPersonTribal</nameGenerator>
+            <nameGenerator>NamerPersonCorunan</nameGenerator>
 			<baseBodySize>2.15</baseBodySize>
 			<baseHealthScale>2.5</baseHealthScale>
 			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>

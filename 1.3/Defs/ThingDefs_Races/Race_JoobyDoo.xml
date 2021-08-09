@@ -1,0 +1,97 @@
+<Defs>
+    
+    
+    
+    <AlienRace.ThingDef_AlienRace ParentName="JorisfolkRace">
+        <defName>SW_Alien_JoobyDoo</defName>
+        <label>Jooby Doo</label>
+        <description>Trouble always seems to follow this Joris, and as a result, it is a very easily frightened creature. Though it may seem imposing in size, this Joris makes for a fine companion for anyone capable of training such a skittish animal.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Nuzzle period, 12 hours. Jooby Doos will flee combat if they are damaged enough.</description>
+        <race>
+            <useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
+        </race>
+        <statBases>
+            <MoveSpeed>5.0</MoveSpeed>
+            <MarketValue>350</MarketValue>
+            <ComfyTemperatureMin>-50</ComfyTemperatureMin>
+        </statBases>
+        <comps>
+            <li Class="AnimalBehaviours.CompProperties_StateAfterHealthLoss">
+                <healthPercent>50</healthPercent>
+                <tickInterval>50</tickInterval>
+                <mentalState>PanicFlee</mentalState>
+            </li>
+        </comps>
+        <alienRace>
+            <generalSettings>
+                <alienPartGenerator>
+                    <aliencrowntypes>
+                        <li>JD</li>
+                    </aliencrowntypes>
+                    <alienbodytypes>
+                        <li>JD</li>
+                    </alienbodytypes>
+                </alienPartGenerator>
+            </generalSettings>
+            <graphicPaths>
+                <li>
+                    <lifeStageDefs>
+                        <li>AdultJorisStage</li>
+                    </lifeStageDefs>
+                    <body>Pawn/JoobyDoo/Body/</body>
+                    <head>Pawn/JoobyDoo/Head/</head>
+                    <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
+                    <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
+                    <customDrawSize>(1.7, 1.7)</customDrawSize>
+                    <customPortraitDrawSize>(1.2, 1.2)</customPortraitDrawSize>
+                    <customHeadDrawSize>(1.7, 1.7)</customHeadDrawSize>
+                    <customPortraitHeadDrawSize>(1.2, 1.2)</customPortraitHeadDrawSize>
+                    <headOffsetDirectional>
+                        <north>(-0.01400560224, 0.7887532371)</north>
+                        <east>(1.183869774, 0.28)</east>
+                        <south>(-0.00892494929, -0.05546218487)</south>
+                        <west>(-1.183869774, 0.28)</west>
+                    </headOffsetDirectional>
+                </li>
+                <li>
+                    <lifeStageDefs>
+                        <li>TeenJorisStage</li>
+                    </lifeStageDefs>
+                    <body>Pawn/JoobyDoo/Body/</body>
+                    <head>Pawn/JoobyDoo/Head/</head>
+                    <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
+                    <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
+                    <customDrawSize>(1, 1)</customDrawSize>
+                    <customPortraitDrawSize>(1.2, 1.2)</customPortraitDrawSize>
+                    <customHeadDrawSize>(1, 1)</customHeadDrawSize>
+                    <customPortraitHeadDrawSize>(1.2, 1.2)</customPortraitHeadDrawSize>
+                    <headOffsetDirectional>
+                        <north>(0.002380952381, 0.4496855346)</north>
+                        <east>(0.7044025157, 0.1052631579)</east>
+                        <south>(-0.004022988506, -0.025)</south>
+                        <west>(-0.7044025157, 0.1052631579)</west>
+                    </headOffsetDirectional>
+                </li>
+                <li>
+                    <lifeStageDefs>
+                        <li>BabyJorisStage</li>
+                    </lifeStageDefs>
+                    <body>Pawn/JoobyDoo/Body/</body>
+                    <head>Pawn/JoobyDoo/Head/</head>
+                    <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
+                    <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
+                    <customDrawSize>(0.4, 0.4)</customDrawSize>
+                    <customPortraitDrawSize>(1.2, 1.2)</customPortraitDrawSize>
+                    <customHeadDrawSize>(0.4, 0.4)</customHeadDrawSize>
+                    <customPortraitHeadDrawSize>(1.2, 1.2)</customPortraitHeadDrawSize>
+                    <headOffsetDirectional>
+                        <north>(0.005952380952, 0.1839622642)</north>
+                        <east>(0.2767295597, 0.05263157895)</east>
+                        <south>(-0.001436781609, -0.008928571429)</south>
+                        <west>(-0.2767295597, 0.05263157895)</west>
+                    </headOffsetDirectional>
+                </li>
+            </graphicPaths>
+        </alienRace>
+    </AlienRace.ThingDef_AlienRace>
+
+</Defs>

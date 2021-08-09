@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <AlienRace.BackstoryDef>
+        <defName>OverrideConvict</defName>
+        <title>Escaped convict</title>
+        <titleShort>Escapee</titleShort>
+        <baseDescription>[PAWN_nameDef] denies involvement in the crimes that brought about [PAWN_possessive] incarceration in a brutal penal colony. [PAWN_pronoun] escaped by tunneling beneath the perimeter using modified cutlery. </baseDescription>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>AlienOverrideConvict</li>
+        </spawnCategories>
+        <skillGains>
+            <li>
+                <defName>Mining</defName>
+                <amount>4</amount>
+            </li>
+            <li>
+                <defName>Crafting</defName>
+                <amount>2</amount>
+            </li>
+        </skillGains>
+        <workDisables>
+            <li>Caring</li>
+        </workDisables>
+        <forcedItems>
+            <MeleeWeapon_Knife>1</MeleeWeapon_Knife>
+        </forcedItems>
+    </AlienRace.BackstoryDef>
+</Defs>

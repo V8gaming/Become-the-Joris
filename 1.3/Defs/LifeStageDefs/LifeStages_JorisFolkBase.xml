@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+	<LifeStageDef>
+		<defName>BabyJorisStage</defName>
+		<label>Baby</label>
+		<healthScaleFactor>0.5</healthScaleFactor>
+		<hungerRateFactor>0.5</hungerRateFactor>
+		<marketValueFactor>0.75</marketValueFactor>
+		<statFactors>
+			<MoveSpeed>0.5</MoveSpeed>
+		</statFactors>
+	</LifeStageDef>
+
+
+    <LifeStageDef>
+		<defName>TeenJorisStage</defName>
+		<label>Teen</label>
+		<visible>false</visible>
+		<reproductive>true</reproductive>
+	</LifeStageDef>
+  
+	<LifeStageDef>
+		<defName>AdultJorisStage</defName>
+		<label>Adult</label>
+		<visible>false</visible>
+		<reproductive>true</reproductive>
+	</LifeStageDef>
+
+</Defs>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!--FatJorry = No space(PerfectlyNormalJoris) -->
+    <!--Fat Jorry = space(Perfectly Normal Joris) -->
+	<PawnKindDef Name="BaseFatJorryPawnKind">
+		<defName>SW_FatJorryPlayer</defName>
+		<label>Fat Jorry</label>
+		<race>SW_Alien_FatJorry</race>
+		<combatPower>50</combatPower>
+		<baseRecruitDifficulty>0.50</baseRecruitDifficulty>
+		<isFighter>false</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<defaultFactionType>SW_JorisfolkPlayerColony</defaultFactionType>
+		<apparelTags>
+			<li>IndustrialBasic</li>
+		</apparelTags>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelMoney>
+			<min>50</min>
+			<max>800</max>
+		</apparelMoney>
+		<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+		<techHediffsChance>0.03</techHediffsChance>
+		<techHediffsMoney>
+			<min>50</min>
+			<max>800</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+		</techHediffsTags>
+        <initialResistanceRange>13~21</initialResistanceRange>
+        <initialWillRange>0~0</initialWillRange>
+	</PawnKindDef>
+
+	<PawnKindDef Name="BaseTribalFatJorryPawnKind">
+		<defName>SW_FatJorryPlayerTribal</defName>
+		<label>Tribal Fat Jorry</label>
+		<race>SW_Alien_FatJorry</race>
+		<combatPower>50</combatPower>
+		<baseRecruitDifficulty>0.50</baseRecruitDifficulty>
+		<isFighter>false</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<defaultFactionType>SW_JorisfolkPlayerTribe</defaultFactionType>
+		<apparelTags>
+			<li>Medieval</li>
+		</apparelTags>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelMoney>
+			<min>200</min>
+			<max>200</max>
+		</apparelMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<techHediffsChance>0.02</techHediffsChance>
+		<techHediffsMoney>
+			<min>50</min>
+			<max>50</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+        <initialResistanceRange>13~21</initialResistanceRange>
+        <initialWillRange>0~0</initialWillRange>
+	</PawnKindDef>
+
+</Defs>

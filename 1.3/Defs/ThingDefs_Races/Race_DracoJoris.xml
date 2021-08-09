@@ -1,172 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    
-    
-    
+    <!--DracoJoris = No space(PerfectlyNormalJoris) -->
+    <!--Draco Joris = space(Perfectly Normal Joris) -->
+    <!--DJ = BodyPartDef(Base or BFJ) -->
     <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
-        <defName>SW_Alien_FourLeggedUniJoris</defName>
-        <label>Four Legged Uni Joris</label>
-        <description>A semi-mythical four-legged version of the one-legged Uni Joris, which, paradoxically, is slower than a regular Uni Joris because the extra three legs take far more effort for the Joris to maneuver.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: The Four-Legged Uni Joris is specially rare, and its horn can be extremely valuable.</description>
+        <defName>SW_Alien_DracoJoris</defName>
+        <label>Draconic Joris</label>
+        <description>A weird lizard-bear creature. Seems to be quite peaceful and have a mind on its own. Perhaps it could be used as some sort of disposable guard beast.</description>
         <statBases>
             <Mass>35</Mass>
-            <MarketValue>700</MarketValue>
-            <MoveSpeed>4.6</MoveSpeed>
-            <Flammability>0.1</Flammability>
-            <ComfyTemperatureMin>-55</ComfyTemperatureMin>
-            <ComfyTemperatureMax>45</ComfyTemperatureMax>
+            <MarketValue>350</MarketValue>
+            <MoveSpeed>3</MoveSpeed>
+            <Flammability>0</Flammability>
+            <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+            <ComfyTemperatureMax>60</ComfyTemperatureMax>
             <MentalBreakThreshold>-0.30</MentalBreakThreshold>
             <LeatherAmount>20</LeatherAmount>
             <PsychicSensitivity>1.0</PsychicSensitivity>
-            <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
-            <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
-            <ArmorRating_Heat>0.20</ArmorRating_Heat>
+            <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+            <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+            <ArmorRating_Heat>0.3</ArmorRating_Heat>
             <WorkSpeedGlobal>1.1</WorkSpeedGlobal>
         </statBases>
-        <race>
-            <thinkTreeMain>Humanlike</thinkTreeMain>
-            <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
-            <intelligence>Humanlike</intelligence>
-            <makesFootprints>true</makesFootprints>
-            <lifeExpectancy>70</lifeExpectancy>
-            <leatherDef>Leather_Bear</leatherDef>
-            <body>JE_QuadrupedAnimalWithPawsAndHorn</body>
-            <useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
-            <nameGenerator>NamerPersonCorunan</nameGenerator>
-            <baseBodySize>2.15</baseBodySize>
-            <baseHealthScale>2.5</baseHealthScale>
-            <foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
-            <gestationPeriodDays>30</gestationPeriodDays>
-            <litterSizeCurve>
-                <points>
-                    <li>(1.4, 0)</li>
-                    <li>(2, 1)</li>
-                    <li>(2.7, 0)</li>
-                </points>
-            </litterSizeCurve>
-            <lifeStageAges>
-                <li>
-                    <def>BabyJorisStage</def>
-                    <minAge>0</minAge>
-                </li>
-                <li>
-                    <def>TeenJorisStage</def>
-                    <minAge>11</minAge>
-                </li>
-                <li>
-                    <def>AdultJorisStage</def>
-                    <minAge>18</minAge>
-                    <soundWounded>Pawn_Bear_Injured</soundWounded>
-                    <soundDeath>Pawn_Bear_Death</soundDeath>
-                    <soundCall>Pawn_Bear_Call</soundCall>
-                    <soundAngry>Pawn_Bear_Angry</soundAngry>
-                </li>
-            </lifeStageAges>
-            <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
-            <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
-            <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
-            <specialShadowData>
-                <volume>(0.8, 0.6, 0.6)</volume>
-                <offset>(0,0,-0.3)</offset>
-            </specialShadowData>
-            <ageGenerationCurve>
-                <points>
-                    <li>(6,0)</li>
-                    <li>(14,3)</li>
-                    <li>(16,100)</li>
-                    <li>(50,100)</li>
-                    <li>(60,30)</li>
-                    <li>(70,18)</li>
-                    <li>(80,10)</li>
-                    <li>(90,3)</li>
-                    <li>(100,0)</li>
-                </points>
-            </ageGenerationCurve>
-            <hediffGiverSets>
-                <li>OrganicStandard</li>
-                <li>Human</li>
-            </hediffGiverSets>
-        </race>
-        <tools>
-            <li>
-                <label>horn</label>
-                <capacities>
-                    <li>Scratch</li>
-                </capacities>
-                <power>20</power>
-                <cooldownTime>0.85</cooldownTime>
-                <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
-            </li>
-            <li>
-                <label>horn</label>
-                <capacities>
-                    <li>Blunt</li>
-                </capacities>
-                <power>15</power>
-                <cooldownTime>1.7</cooldownTime>
-                <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
-            </li>
-            <li>
-                <label>left claw</label>
-                <capacities>
-                    <li>Scratch</li>
-                </capacities>
-                <power>17</power>
-                <cooldownTime>2</cooldownTime>
-                <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
-                <surpriseAttack>
-                    <extraMeleeDamages>
-                        <li>
-                            <def>Stun</def>
-                            <amount>14</amount>
-                        </li>
-                    </extraMeleeDamages>
-                </surpriseAttack>
-            </li>
-            <li>
-                <label>right claw</label>
-                <capacities>
-                    <li>Scratch</li>
-                </capacities>
-                <power>17</power>
-                <cooldownTime>2</cooldownTime>
-                <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
-                <surpriseAttack>
-                    <extraMeleeDamages>
-                        <li>
-                            <def>Stun</def>
-                            <amount>14</amount>
-                        </li>
-                    </extraMeleeDamages>
-                </surpriseAttack>
-            </li>
-            <li>
-                <capacities>
-                    <li>Bite</li>
-                </capacities>
-                <power>23.6</power>
-                <cooldownTime>2.6</cooldownTime>
-                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-                <chanceFactor>0.5</chanceFactor>
-                <surpriseAttack>
-                    <extraMeleeDamages>
-                        <li>
-                            <def>Stun</def>
-                            <amount>14</amount>
-                        </li>
-                    </extraMeleeDamages>
-                </surpriseAttack>
-            </li>
-            <li>
-                <label>head</label>
-                <capacities>
-                    <li>Blunt</li>
-                </capacities>
-                <power>11</power>
-                <cooldownTime>2</cooldownTime>
-                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-                <chanceFactor>0.2</chanceFactor>
-            </li>
-        </tools>
         <alienRace>
             <generalSettings>
                 <maleGenderProbability>0.5</maleGenderProbability>
@@ -174,6 +29,12 @@
                 <humanRecipeImport>false</humanRecipeImport>
                 <immuneToXenophobia>false</immuneToXenophobia>
                 <alienPartGenerator>
+                    <aliencrowntypes>
+                        <li>DJ</li>
+                    </aliencrowntypes>
+                    <alienbodytypes>
+                        <li>DJ</li>
+                    </alienbodytypes>
                     <useGenderedHeads>false</useGenderedHeads>
                     <useGenderedBodies>false</useGenderedBodies>
                     <colorChannels>
@@ -189,17 +50,8 @@
                             </first>
                         </li>
                     </colorChannels>
-                    <aliencrowntypes>
-                        <li>FLUJ</li>
-                    </aliencrowntypes>
-                    <alienbodytypes>
-                        <li>FLUJ</li>
-                    </alienbodytypes>
                 </alienPartGenerator>
             </generalSettings>
-            <hairSettings>
-                <hasHair>false</hasHair>
-            </hairSettings>
             <thoughtSettings>
                 <cannotReceiveThoughts>
                     <li>ObservedLayingCorpse</li>
@@ -255,8 +107,8 @@
                     <lifeStageDefs>
                         <li>AdultJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/FourLeggedUniJoris/Body/</body>
-                    <head>Pawn/FourLeggedUniJoris/Head/</head>
+                    <body>Pawn/DracoJoris/Body/</body>
+                    <head>Pawn/DracoJoris/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(1.7, 1.7)</customDrawSize>
@@ -274,8 +126,8 @@
                     <lifeStageDefs>
                         <li>TeenJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/FourLeggedUniJoris/Body/</body>
-                    <head>Pawn/FourLeggedUniJoris/Head/</head>
+                    <body>Pawn/DracoJoris/Body/</body>
+                    <head>Pawn/DracoJoris/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(1, 1)</customDrawSize>
@@ -293,8 +145,8 @@
                     <lifeStageDefs>
                         <li>BabyJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/FourLeggedUniJoris/Body/</body>
-                    <head>Pawn/FourLeggedUniJoris/Head/</head>
+                    <body>Pawn/DracoJoris/Body/</body>
+                    <head>Pawn/DracoJoris/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(0.4, 0.4)</customDrawSize>
@@ -310,6 +162,70 @@
                 </li>
             </graphicPaths>
         </alienRace>
+        <race>
+            <thinkTreeMain>Humanlike</thinkTreeMain>
+            <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+            <intelligence>Humanlike</intelligence>
+            <makesFootprints>true</makesFootprints>
+            <lifeExpectancy>70</lifeExpectancy>
+            <useMeatFrom>Iguana</useMeatFrom>
+            <leatherDef>Leather_Lizard</leatherDef>
+            <body>QuadrupedAnimalWithClawsTailAndJowl</body>
+            <nameGenerator>NamerPersonCorunan</nameGenerator>
+            <baseBodySize>2.15</baseBodySize>
+            <baseHealthScale>2</baseHealthScale>
+            <foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
+            <gestationPeriodDays>30</gestationPeriodDays>
+            <litterSizeCurve>
+                <points>
+                    <li>(1.4, 0)</li>
+                    <li>(2, 1)</li>
+                    <li>(2.7, 0)</li>
+                </points>
+            </litterSizeCurve>
+            <lifeStageAges>
+                <li>
+                    <def>BabyJorisStage</def>
+                    <minAge>0</minAge>
+                </li>
+                <li>
+                    <def>TeenJorisStage</def>
+                    <minAge>11</minAge>
+                </li>
+                <li>
+                    <def>AdultJorisStage</def>
+                    <minAge>18</minAge>
+                    <soundWounded>Pawn_Iguana_Wounded</soundWounded>
+                    <soundDeath>Pawn_Iguana_Death</soundDeath>
+                    <soundCall>Pawn_Iguana_Call</soundCall>
+                    <soundAngry>Pawn_Iguana_Angry</soundAngry>
+                </li>
+            </lifeStageAges>
+            <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+            <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+            <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+            <specialShadowData>
+                <volume>(0.8, 0.6, 0.6)</volume>
+                <offset>(0,0,-0.3)</offset>
+            </specialShadowData>
+            <ageGenerationCurve>
+                <points>
+                    <li>(6,0)</li>
+                    <li>(14,3)</li>
+                    <li>(16,100)</li>
+                    <li>(50,100)</li>
+                    <li>(60,30)</li>
+                    <li>(70,18)</li>
+                    <li>(80,10)</li>
+                    <li>(90,3)</li>
+                    <li>(100,0)</li>
+                </points>
+            </ageGenerationCurve>
+            <hediffGiverSets>
+                <li>OrganicStandard</li>
+                <li>Human</li>
+            </hediffGiverSets>
+        </race>
         <recipes>
             <li>InstallArchotechEye</li>
             <li>InstallArchotechArm</li>
@@ -341,5 +257,64 @@
             <li>Euthanize</li>
             <li>Anesthetize</li>
         </recipes>
+        <tools>
+            <li>
+                <label>left claw</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>6</power>
+                <cooldownTime>1.5</cooldownTime>
+                <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>14</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <label>right claw</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>6</power>
+                <cooldownTime>1.5</cooldownTime>
+                <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>14</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <label>fangs</label>
+                <capacities>
+                    <li>Bite</li>
+                </capacities>
+                <power>18</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+                <chanceFactor>0.9</chanceFactor>
+
+            </li>
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>5</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+        </tools>
     </AlienRace.ThingDef_AlienRace>
+
 </Defs>
