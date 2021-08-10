@@ -124,4 +124,16 @@
     <BodyTypeDef>
         <defName>Jor</defName>
     </BodyTypeDef>
+    <BodyTypeDef>
+        <defName>PJ</defName>
+    </BodyTypeDef>    
+    <BodyTypeDef>
+        <defName>NJ</defName>
+    </BodyTypeDef>    
+    <BodyTypeDef>
+        <defName>XQ</defName>
+    </BodyTypeDef>    
+    <BodyTypeDef>
+        <defName>JGV</defName>
+    </BodyTypeDef>
 </Defs>

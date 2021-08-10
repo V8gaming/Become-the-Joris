@@ -1,22 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    
-    
-    
+    <!--NoitaJoris = No space(PerfectlyNormalJoris) -->
+    <!--Noita Joris = space(Perfectly Normal Joris) -->
+    <!--NJ = BodyPartDef(Base or BFJ) -->
     <AlienRace.ThingDef_AlienRace ParentName="JorisfolkRace">
-        <defName>SW_Alien_JoneralGrievous</defName>
-        <label>Joneral Grievous</label>
-        <description>A Joris that was cruelly experimented on by an intergalactic warlord to be used as a weapon of war. It has an additional two biomechanical limbs, and its regular polar bear limbs have been improved with thumbs, allowing this Joris to be deadly with a melee weapon.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Being a half-robot, it requires very little sustenance, very very little sleep, is incapable of reproduction and feels almost no pain. Joneral Grievous' attacks set his targets on fire.</description>
-        <race>
-            <useMeatFrom>JE_PerfectlyNormalJoris</useMeatFrom>
-        </race>
+        <defName>SW_Alien_NoitaJoris</defName>
+        <label>Noita Joris</label>
+        <description>Did you know "Noita" in Finnish means "Sam Breaker"? The Noita Joris is a very weak Joris. Almost anything or anyone looking at it sideways will kill it. A barrel of goo? Dead. A falling wheelcart? Dead. Electricity? So dead. Fire??? Dead AS DICKS. This turns Noita Jorises into very frustrated, very timid creatures, that just want to experiment with their magic wands on their own.\n\nThe Joris Bear (Ursus Bonsonae) is a genetically modified variant of the polar and grizzly bears, adapted to life in the hostile environments of the Rim. It is thought that the original Joris Bear was created as a mockery of an obscure political figure from Old Earth's antiquity, and different variants of it were generated both by natural and artificial evolution.\n\nSpecial mechanics: Fire kills Noita Joris very very fast. They can use ranged fire attacks with their wands.</description>
         <alienRace>
             <generalSettings>
                 <alienPartGenerator>
                     <aliencrowntypes>
-                        <li>JGV</li>
+                        <li>NJ</li>
                     </aliencrowntypes>
                     <alienbodytypes>
-                        <li>JGV</li>
+                        <li>NJ</li>
                     </alienbodytypes>
                 </alienPartGenerator>
             </generalSettings>
@@ -25,8 +23,8 @@
                     <lifeStageDefs>
                         <li>AdultJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/JoneralGrievous/Body/</body>
-                    <head>Pawn/JoneralGrievous/Head/</head>
+                    <body>Pawn/NoitaJoris/Body/</body>
+                    <head>Pawn/NoitaJoris/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(1.7, 1.7)</customDrawSize>
@@ -44,8 +42,8 @@
                     <lifeStageDefs>
                         <li>TeenJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/JoneralGrievous/Body/</body>
-                    <head>Pawn/JoneralGrievous/Head/</head>
+                    <body>Pawn/NoitaJoris/Body/</body>
+                    <head>Pawn/NoitaJoris/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(1, 1)</customDrawSize>
@@ -63,8 +61,8 @@
                     <lifeStageDefs>
                         <li>BabyJorisStage</li>
                     </lifeStageDefs>
-                    <body>Pawn/JoneralGrievous/Body/</body>
-                    <head>Pawn/JoneralGrievous/Head/</head>
+                    <body>Pawn/NoitaJoris/Body/</body>
+                    <head>Pawn/NoitaJoris/Head/</head>
                     <skeleton>Pawn/PerfectlyNormalJoris/Body/Rotten</skeleton>
                     <skull>Pawn/PerfectlyNormalJoris/Head/Skull</skull>
                     <customDrawSize>(0.4, 0.4)</customDrawSize>

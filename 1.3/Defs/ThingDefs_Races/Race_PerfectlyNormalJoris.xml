@@ -37,6 +37,12 @@
                         <south>(-0.00892494929, -0.05546218487)</south>
                         <west>(-1.183869774, 0.28)</west>
                     </headOffsetDirectional>
+                    <!--
+                    x1	88
+                    x2	87
+                    y1	90
+                    y2	84
+                    -->
                 </li>
                 <li>
                     <lifeStageDefs>
