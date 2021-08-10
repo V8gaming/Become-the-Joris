@@ -19,5 +19,3 @@ And these people for textures as well:
 * Rygoth
 * BarackBebop
 * Adronius
-
-[Link to shitty offset google sheet that i made and doesnt work properly](https://docs.google.com/spreadsheets/d/1j_7-di4oRrIOCBjMOYHJ83WMkSuxCBjdSuwJt-GqKJw/edit?usp=sharing)
