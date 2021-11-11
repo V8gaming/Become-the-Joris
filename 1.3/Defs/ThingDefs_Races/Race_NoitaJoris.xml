@@ -78,6 +78,31 @@
                 </li>
             </graphicPaths>
         </alienRace>
+        <comps>
+            <li Class="AnimalBehaviours.CompProperties_HighlyFlammable">
+                <hediffToInflict>JE_PermanentBurn</hediffToInflict>
+            </li>
+        </comps>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <accuracyTouch>1</accuracyTouch>
+                <accuracyShort>1</accuracyShort>
+                <accuracyMedium>1</accuracyMedium>
+                <accuracyLong>1</accuracyLong>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>JE_NoitaFireball</defaultProjectile>
+                <warmupTime>3</warmupTime>
+                <burstShotCount>1</burstShotCount>
+                <forcedMissRadius>2</forcedMissRadius>
+                <minRange>1</minRange>
+                <range>25</range>
+                <label>noita fireball</label>
+                <soundCast>JE_FireSpit</soundCast>
+                <muzzleFlashScale>0</muzzleFlashScale>
+                <commonality>1</commonality>
+            </li>
+        </verbs>
     </AlienRace.ThingDef_AlienRace>
 
 </Defs>

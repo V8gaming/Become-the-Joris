@@ -97,12 +97,12 @@
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>                        
-                        <li>
+                        <!--<li>
                             <kindDefs>
                                 <li>SW_ChadJorisPlayer</li>
                             </kindDefs>
                             <chance>10.0</chance>
-                        </li>                        
+                        </li>-->                        
                         <li>
                             <kindDefs>
                                 <li>SW_JorutoPlayer</li>
@@ -183,18 +183,6 @@
                         </li>                        
                         <li>
                             <kindDefs>
-                                <li>SW_JorisSirojPlayer</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_JovidBowiePlayer</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
                                 <li>SW_JonicTheHedgehogPlayer</li>
                             </kindDefs>
                             <chance>10.0</chance>
@@ -204,16 +192,22 @@
                                 <li>SW_JordonFreemanPlayer</li>
                             </kindDefs>
                             <chance>10.0</chance>
-                        </li>
+                        </li>                                        
                         <li>
                             <kindDefs>
-                                <li>SW_JagothGrrPlayer</li>
+                                <li>SW_NoitaJorisPlayer</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>                        
                         <li>
                             <kindDefs>
-                                <li>SW_JonerysBonbeareanPlayer</li>
+                                <li>SW_JovidBowiePlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>                        
+                        <li>
+                            <kindDefs>
+                                <li>SW_JagothGrrPlayer</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>                        
@@ -225,7 +219,13 @@
                         </li>                        
                         <li>
                             <kindDefs>
-                                <li>SW_JorrickLorgePlayer</li>
+                                <li>SW_JoromirPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>                        
+                        <li>
+                            <kindDefs>
+                                <li>SW_JoskarBontockiPlayer</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>                        
@@ -237,25 +237,25 @@
                         </li>                        
                         <li>
                             <kindDefs>
-                                <li>SW_PickleJorisPlayer</li>
+                                <li>SW_JorrickLorgePlayer</li>
                             </kindDefs>
                             <chance>10.0</chance>
-                        </li>
+                        </li>                        
                         <li>
                             <kindDefs>
-                                <li>SW_NoitaJorisPlayer</li>
+                                <li>SW_JonerysBonbeareanPlayer</li>
                             </kindDefs>
                             <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_XorismorphQueenPlayer</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
+                        </li>                        
                         <li>
                             <kindDefs>
                                 <li>SW_JoneralGrievousPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>                        
+                        <li>
+                            <kindDefs>
+                                <li>SW_XorismorphQueenPlayer</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
@@ -356,12 +356,12 @@
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
-                        <li>
+                        <!--<li>
                             <kindDefs>
                                 <li>SW_ChadJorisPlayerTribal</li>
                             </kindDefs>
                             <chance>10.0</chance>
-                        </li>
+                        </li>-->
                         <li>
                             <kindDefs>
                                 <li>SW_JorutoPlayerTribal</li>
@@ -442,18 +442,6 @@
                         </li>
                         <li>
                             <kindDefs>
-                                <li>SW_JorisSirojPlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>                        
-                        <li>
-                            <kindDefs>
-                                <li>SW_JovidBowiePlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
                                 <li>SW_JonicTheHedgehogPlayerTribal</li>
                             </kindDefs>
                             <chance>10.0</chance>
@@ -466,7 +454,49 @@
                         </li>                        
                         <li>
                             <kindDefs>
+                                <li>SW_NoitaJorisPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JovidBowiePlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
                                 <li>SW_JagothGrrPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JorisWhatLivesInASocietyPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JoromirPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>                        
+                        <li>
+                            <kindDefs>
+                                <li>SW_JoskarBontockiPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>                        
+                        <li>
+                            <kindDefs>
+                                <li>SW_JoraltOfRiviaPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JorrickLorgePlayerTribal</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
@@ -478,43 +508,13 @@
                         </li>
                         <li>
                             <kindDefs>
-                                <li>SW_JorisWhatLivesInASocietyPlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>                        
-                        <li>
-                            <kindDefs>
-                                <li>SW_JorrickLorgePlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_JoraltOfRiviaPlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_PickleJorisPlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_NoitaJorisPlayerTribal</li>
+                                <li>SW_JoneralGrievousPlayerTribal</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
                         <li>
                             <kindDefs>
                                 <li>SW_XorismorphQueenPlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>                        
-                        <li>
-                            <kindDefs>
-                                <li>SW_JoneralGrievousPlayerTribal</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
@@ -617,12 +617,12 @@
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
-                        <li>
+                        <!--<li>
                             <kindDefs>
                                 <li>SW_ChadJorisPlayer</li>
                             </kindDefs>
                             <chance>10.0</chance>
-                        </li>
+                        </li>-->
                         <li>
                             <kindDefs>
                                 <li>SW_JorutoPlayer</li>
@@ -703,18 +703,6 @@
                         </li>
                         <li>
                             <kindDefs>
-                                <li>SW_JorisSirojPlayer</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>                        
-                        <li>
-                            <kindDefs>
-                                <li>SW_JovidBowiePlayer</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
                                 <li>SW_JonicTheHedgehogPlayer</li>
                             </kindDefs>
                             <chance>10.0</chance>
@@ -722,6 +710,18 @@
                         <li>
                             <kindDefs>
                                 <li>SW_JordonFreemanPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>                       
+                        <li>
+                            <kindDefs>
+                                <li>SW_NoitaJorisPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JovidBowiePlayer</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
@@ -733,13 +733,25 @@
                         </li>
                         <li>
                             <kindDefs>
-                                <li>SW_JonerysBonbeareanPlayer</li>
+                                <li>SW_JorisWhatLivesInASocietyPlayer</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
                         <li>
                             <kindDefs>
-                                <li>SW_JorisWhatLivesInASocietyPlayer</li>
+                                <li>SW_JoromirPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JoskarBontockiPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>                        
+                        <li>
+                            <kindDefs>
+                                <li>SW_JoraltOfRiviaPlayer</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
@@ -751,31 +763,19 @@
                         </li>
                         <li>
                             <kindDefs>
-                                <li>SW_JoraltOfRiviaPlayer</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_PickleJorisPlayer</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>                        
-                        <li>
-                            <kindDefs>
-                                <li>SW_NoitaJorisPlayer</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_XorismorphQueenPlayer</li>
+                                <li>SW_JonerysBonbeareanPlayer</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
                         <li>
                             <kindDefs>
                                 <li>SW_JoneralGrievousPlayer</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_XorismorphQueenPlayer</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
@@ -876,12 +876,12 @@
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
-                        <li>
+                        <!--<li>
                             <kindDefs>
                                 <li>SW_ChadJorisPlayerTribal</li>
                             </kindDefs>
                             <chance>10.0</chance>
-                        </li>
+                        </li>-->
                         <li>
                             <kindDefs>
                                 <li>SW_JorutoPlayerTribal</li>
@@ -962,18 +962,6 @@
                         </li>
                         <li>
                             <kindDefs>
-                                <li>SW_JorisSirojPlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>                        
-                        <li>
-                            <kindDefs>
-                                <li>SW_JovidBowiePlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
                                 <li>SW_JonicTheHedgehogPlayerTribal</li>
                             </kindDefs>
                             <chance>10.0</chance>
@@ -981,6 +969,18 @@
                         <li>
                             <kindDefs>
                                 <li>SW_JordonFreemanPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>                       
+                        <li>
+                            <kindDefs>
+                                <li>SW_NoitaJorisPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JovidBowiePlayerTribal</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
@@ -992,13 +992,25 @@
                         </li>
                         <li>
                             <kindDefs>
-                                <li>SW_JonerysBonbeareanPlayerTribal</li>
+                                <li>SW_JorisWhatLivesInASocietyPlayerTribal</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
                         <li>
                             <kindDefs>
-                                <li>SW_JorisWhatLivesInASocietyPlayerTribal</li>
+                                <li>SW_JoromirPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_JoskarBontockiPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>                        
+                        <li>
+                            <kindDefs>
+                                <li>SW_JoraltOfRiviaPlayerTribal</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
@@ -1010,31 +1022,19 @@
                         </li>
                         <li>
                             <kindDefs>
-                                <li>SW_JoraltOfRiviaPlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_PickleJorisPlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>                        
-                        <li>
-                            <kindDefs>
-                                <li>SW_NoitaJorisPlayerTribal</li>
-                            </kindDefs>
-                            <chance>10.0</chance>
-                        </li>
-                        <li>
-                            <kindDefs>
-                                <li>SW_XorismorphQueenPlayerTribal</li>
+                                <li>SW_JonerysBonbeareanPlayerTribal</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>
                         <li>
                             <kindDefs>
                                 <li>SW_JoneralGrievousPlayerTribal</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>SW_XorismorphQueenPlayerTribal</li>
                             </kindDefs>
                             <chance>10.0</chance>
                         </li>

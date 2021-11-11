@@ -32,10 +32,10 @@
 			   <customHeadDrawSize>(1.7, 1.7)</customHeadDrawSize>
 			   <customPortraitHeadDrawSize>(1.2, 1.2)</customPortraitHeadDrawSize>
                     <headOffsetDirectional>
-                        <north>(-0.01400560224, 0.7887532371)</north>
-                        <east>(1.07, 0.28)</east>
-                        <south>(-0.00892494929, -0.05546218487)</south>
-                        <west>(-1.07, 0.28)</west>
+                        <north>(0, 0.79)</north>
+                        <east>(1.07, 0.24)</east>
+                        <south>(0, -0.08)</south>
+                        <west>(-1.07, 0.24)</west>
                     </headOffsetDirectional>
 			 </li>
 			 <li>
@@ -51,10 +51,10 @@
 			   <customHeadDrawSize>(1, 1)</customHeadDrawSize>
 			   <customPortraitHeadDrawSize>(1.2, 1.2)</customPortraitHeadDrawSize>
                  <headOffsetDirectional>
-                     <north>(0.002380952381, 0.4496855346)</north>
-                     <east>(0.7044025157, 0.1052631579)</east>
-                     <south>(-0.004022988506, -0.025)</south>
-                     <west>(-0.7044025157, 0.1052631579)</west>
+                     <north>(0, 0.46)</north>
+                     <east>(0.63, 0.15)</east>
+                     <south>(0, -0.05)</south>
+                     <west>(-0.63, 0.15)</west>
                  </headOffsetDirectional>
 			 </li>
 			 <li>
@@ -70,10 +70,10 @@
 			   <customHeadDrawSize>(0.4, 0.4)</customHeadDrawSize>
 			   <customPortraitHeadDrawSize>(1.2, 1.2)</customPortraitHeadDrawSize>
                  <headOffsetDirectional>
-                     <north>(0.005952380952, 0.1839622642)</north>
-                     <east>(0.2767295597, 0.05263157895)</east>
-                     <south>(-0.001436781609, -0.008928571429)</south>
-                     <west>(-0.2767295597, 0.05263157895)</west>
+                     <north>(0, 0.1766)</north>
+                     <east>(0.25, 0.0729)</east>
+                     <south>(0, -0.024)</south>
+                     <west>(-0.25, 0.0729)</west>
                  </headOffsetDirectional>
 			 </li>
 		 </graphicPaths>

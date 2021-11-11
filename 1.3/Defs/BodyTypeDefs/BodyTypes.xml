@@ -135,5 +135,8 @@
     </BodyTypeDef>    
     <BodyTypeDef>
         <defName>JGV</defName>
-    </BodyTypeDef>
+    </BodyTypeDef>    
+    <BodyTypeDef>
+        <defName>JBt</defName>
+    </BodyTypeDef>       
 </Defs>
